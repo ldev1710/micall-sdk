@@ -26,7 +26,7 @@ class MiCallSDK {
     }
     
     public static func toggleMute(isMute: Bool){
-        var ok = UnsafeMutablePointer<Bool>.allocate(capacity: 1)
+        let ok = UnsafeMutablePointer<Bool>.allocate(capacity: 1)
         ok[0] = isMute
         CPPWrapper().toggleMute(ok);
     }
