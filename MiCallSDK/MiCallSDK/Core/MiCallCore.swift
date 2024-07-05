@@ -13,6 +13,7 @@ public class MiCallCore {
     private static var currentAccount: MiCallAccount?
     private static var apiKey: String?
     private static var observes: [MiCallListener]?
+    private static var isAutoAnswer: Bool = false
     public static var currCall: Call?
     
     public static func answer(){
@@ -29,6 +30,10 @@ public class MiCallCore {
         let ok = UnsafeMutablePointer<Bool>.allocate(capacity: 1)
         ok[0] = isMute
         CPPWrapper().toggleMute(ok);
+    }
+    
+    public static func setAutoAnswer(isEnable: Bool){
+        isAutoAnswer = isEnable;
     }
     
     public static func toggleSpeaker(isEnable: Bool){
@@ -102,6 +107,9 @@ public class MiCallCore {
     
     public static func observingCallState(state: CallStateEnum,call: Call){
         currCall = call
+        if(state == CallStateEnum.INCOMING && isAutoAnswer){
+            answer();
+        }
         if(observes==nil) {return;}
         MiCallLog.logI(message: "\(state) \(call.remoteExtension)")
         for observe in observes! {
@@ -143,6 +151,7 @@ public class MiCallCore {
                 proxy
             )
     }
+    
     public static func unRegister(){
         CPPWrapper().unregisterAccountWrapper()
     }

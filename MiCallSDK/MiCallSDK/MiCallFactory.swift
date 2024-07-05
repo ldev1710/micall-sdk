@@ -27,7 +27,7 @@ public class MiCallFactory {
         MiCallCore.hold();
     }
     static func setAutoAnswer(isEnable: Bool ){
-        //        MiCallCore.destroy();
+        MiCallCore.setAutoAnswer(isEnable: isEnable);
     }
     static func unHold(){
         MiCallCore.unHold();

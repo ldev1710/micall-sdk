@@ -34,7 +34,6 @@
 		C1C89C3D2C37D8800070C427 /* libsrtp-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9B032C37AD60004426FF /* libsrtp-arm64-apple-darwin_ios.a */; };
 		C1C89C3E2C37D8800070C427 /* libwebrtc-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9B012C37AD60004426FF /* libwebrtc-arm64-apple-darwin_ios.a */; };
 		C1C89C3F2C37D8800070C427 /* libyuv-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9AFA2C37AD60004426FF /* libyuv-arm64-apple-darwin_ios.a */; };
-		C1C89C5B2C37DA750070C427 /* FooClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C89C1F2C37D3300070C427 /* FooClass.swift */; };
 		C1C89C662C37DB840070C427 /* pjlib in Resources */ = {isa = PBXBuildFile; fileRef = C11011692C36A92700560AB5 /* pjlib */; };
 		C1C89C672C37DB840070C427 /* pjlib-util in Resources */ = {isa = PBXBuildFile; fileRef = C110116B2C36A92700560AB5 /* pjlib-util */; };
 		C1C89C682C37DB840070C427 /* pjmedia in Resources */ = {isa = PBXBuildFile; fileRef = C110116C2C36A92700560AB5 /* pjmedia */; };
@@ -122,7 +121,6 @@
 		C1BD9B062C37AD60004426FF /* libpjnath-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjnath-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjnath/lib/libpjnath-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
 		C1BD9B072C37AD60004426FF /* libpjsip-ua-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsip-ua-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjsip/lib/libpjsip-ua-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
 		C1C89C182C37D2350070C427 /* ios-swift-pjsua2-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ios-swift-pjsua2-Bridging-Header.h"; sourceTree = "<group>"; };
-		C1C89C1F2C37D3300070C427 /* FooClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,7 +188,6 @@
 				C11011372C36A32600560AB5 /* Core */,
 				C11011232C3693A600560AB5 /* MiCallSDK.h */,
 				C11011382C36A44500560AB5 /* MiCallFactory.swift */,
-				C1C89C1F2C37D3300070C427 /* FooClass.swift */,
 			);
 			path = MiCallSDK;
 			sourceTree = "<group>";
@@ -392,7 +389,6 @@
 				C1C89C772C37DD630070C427 /* MiCallCore.swift in Sources */,
 				C1C89C782C37DD630070C427 /* MiCallImp.swift in Sources */,
 				C1C89C792C37DD630070C427 /* MiCallFactory.swift in Sources */,
-				C1C89C5B2C37DA750070C427 /* FooClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
