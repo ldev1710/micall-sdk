@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum CallStateEnum {
+public enum CallStateEnum {
     case INCOMING,
          STREAMING,
          END,

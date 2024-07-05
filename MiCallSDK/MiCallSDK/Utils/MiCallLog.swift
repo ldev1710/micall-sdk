@@ -7,7 +7,7 @@
 
 import Foundation
 
-class MiCallLog {
+public class MiCallLog {
     
     private static var prefix: String = "MiCall-SDK-Log"
     

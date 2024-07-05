@@ -7,7 +7,7 @@
 
 import Foundation
 
-class MiCallNormalize {
+public class MiCallNormalize {
     public static func normalizeRemoteUri(raw: String) -> String{
         guard let sipRange = raw.range(of: "sip:") else { return "Unknow" }
         let start = raw.index(sipRange.lowerBound, offsetBy: 4)

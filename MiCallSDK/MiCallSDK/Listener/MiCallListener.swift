@@ -7,7 +7,7 @@
 
 import Foundation
 
-class MiCallListener : MiCallObserve {
+public class MiCallListener : MiCallObserve {
     func onCallStateChanged(state: CallStateEnum, call: Call) {
         
     }

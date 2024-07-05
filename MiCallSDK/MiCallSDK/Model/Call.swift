@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Call{
+public class Call{
     public var id: Int32
     public var remoteExtension: String
     

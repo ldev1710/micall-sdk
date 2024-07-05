@@ -7,7 +7,7 @@
 
 import Foundation
 
-class MiCallAccount {
+public class MiCallAccount {
     public var domain: String
     public var proxy: String
     public var port: String

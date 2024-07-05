@@ -6,7 +6,7 @@
 //
 
 import Foundation
-enum RegistrationStateEnum {
+public enum RegistrationStateEnum {
     case REGISTERED,
          REGISTERING,
          UNREGISTERED,

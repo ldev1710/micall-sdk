@@ -7,74 +7,122 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C107D3A52C3557D8004A36F4 /* MiCallSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C107D3A42C3557D8004A36F4 /* MiCallSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C107D3AD2C35590E004A36F4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C107D3AC2C35590E004A36F4 /* CoreMedia.framework */; };
-		C107D3AF2C355916004A36F4 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C107D3AE2C355916004A36F4 /* VideoToolbox.framework */; };
-		C107D3B12C35591B004A36F4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C107D3B02C35591B004A36F4 /* AudioToolbox.framework */; };
-		C107D3B32C355920004A36F4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C107D3B22C355920004A36F4 /* AVFoundation.framework */; };
-		C107D3B52C35592D004A36F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C107D3B42C35592D004A36F4 /* Foundation.framework */; };
-		C107D3BC2C355D27004A36F4 /* ios-swift-pjsua2-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = C107D3B62C355D27004A36F4 /* ios-swift-pjsua2-Bridging-Header.h */; };
-		C107D3BD2C355D27004A36F4 /* Core in Resources */ = {isa = PBXBuildFile; fileRef = C107D3B72C355D27004A36F4 /* Core */; };
-		C107D3BE2C355D27004A36F4 /* Listener in Resources */ = {isa = PBXBuildFile; fileRef = C107D3B82C355D27004A36F4 /* Listener */; };
-		C107D3BF2C355D27004A36F4 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = C107D3B92C355D27004A36F4 /* Model */; };
-		C107D3C02C355D27004A36F4 /* Utils in Resources */ = {isa = PBXBuildFile; fileRef = C107D3BA2C355D27004A36F4 /* Utils */; };
-		C107D3C12C355D27004A36F4 /* PJSua2 in Resources */ = {isa = PBXBuildFile; fileRef = C107D3BB2C355D27004A36F4 /* PJSua2 */; };
-		C1D212B12C36402A007612E4 /* libpjsip-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D212AB2C364023007612E4 /* libpjsip-arm64-apple-darwin_ios.a */; };
-		C1D212B22C36402A007612E4 /* libpjmedia-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D212AA2C364023007612E4 /* libpjmedia-arm64-apple-darwin_ios.a */; };
-		C1D212B32C36402A007612E4 /* libilbccodec-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D212AF2C364023007612E4 /* libilbccodec-arm64-apple-darwin_ios.a */; };
-		C1D212B42C36402A007612E4 /* libpjmedia-audiodev-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D212AD2C364023007612E4 /* libpjmedia-audiodev-arm64-apple-darwin_ios.a */; };
-		C1D212B52C36402A007612E4 /* libpjnath-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D212A42C364023007612E4 /* libpjnath-arm64-apple-darwin_ios.a */; };
-		C1D212B62C36402A007612E4 /* libpjsip-simple-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D2129D2C364023007612E4 /* libpjsip-simple-arm64-apple-darwin_ios.a */; };
-		C1D212B72C36402A007612E4 /* libpjmedia-codec-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D212B02C364023007612E4 /* libpjmedia-codec-arm64-apple-darwin_ios.a */; };
-		C1D212B82C36402A007612E4 /* libspeex-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D212A92C364023007612E4 /* libspeex-arm64-apple-darwin_ios.a */; };
-		C1D212B92C36402A007612E4 /* libsrtp-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D2129F2C364023007612E4 /* libsrtp-arm64-apple-darwin_ios.a */; };
-		C1D212BA2C36402A007612E4 /* libresample-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D212A02C364023007612E4 /* libresample-arm64-apple-darwin_ios.a */; };
-		C1D212BB2C36402A007612E4 /* libpjsua2-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D212A62C364023007612E4 /* libpjsua2-arm64-apple-darwin_ios.a */; };
-		C1D212BC2C36402A007612E4 /* libpj-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D212A32C364023007612E4 /* libpj-arm64-apple-darwin_ios.a */; };
-		C1D212BD2C36402A007612E4 /* libgsmcodec-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D212AE2C364023007612E4 /* libgsmcodec-arm64-apple-darwin_ios.a */; };
-		C1D212BE2C36402A007612E4 /* libyuv-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D212A52C364023007612E4 /* libyuv-arm64-apple-darwin_ios.a */; };
-		C1D212BF2C36402A007612E4 /* libg7221codec-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D212A12C364023007612E4 /* libg7221codec-arm64-apple-darwin_ios.a */; };
-		C1D212C02C36402A007612E4 /* libwebrtc-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D212A82C364023007612E4 /* libwebrtc-arm64-apple-darwin_ios.a */; };
-		C1D212C12C36402A007612E4 /* libpjlib-util-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D212A72C364023007612E4 /* libpjlib-util-arm64-apple-darwin_ios.a */; };
-		C1D212C22C36402A007612E4 /* libpjsip-ua-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D212AC2C364023007612E4 /* libpjsip-ua-arm64-apple-darwin_ios.a */; };
-		C1D212C32C36402A007612E4 /* libpjmedia-videodev-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D212A22C364023007612E4 /* libpjmedia-videodev-arm64-apple-darwin_ios.a */; };
-		C1D212C42C36402A007612E4 /* libpjsua-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D2129E2C364023007612E4 /* libpjsua-arm64-apple-darwin_ios.a */; };
+		C1BD9B232C37CB58004426FF /* MiCallSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C11011232C3693A600560AB5 /* MiCallSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1C89C262C37D84A0070C427 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9AAD2C378DC2004426FF /* AudioToolbox.framework */; };
+		C1C89C272C37D8500070C427 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9ABD2C378E58004426FF /* AVFoundation.framework */; };
+		C1C89C282C37D8560070C427 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9AAF2C378DC8004426FF /* VideoToolbox.framework */; };
+		C1C89C292C37D85C0070C427 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9ABF2C378E5E004426FF /* Foundation.framework */; };
+		C1C89C2A2C37D8610070C427 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9ABB2C378E51004426FF /* CoreMedia.framework */; };
+		C1C89C2B2C37D8730070C427 /* CoreAudioTypes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9AE92C378EA7004426FF /* CoreAudioTypes.framework */; platformFilter = ios; };
+		C1C89C2C2C37D8800070C427 /* libg7221codec-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9AFB2C37AD60004426FF /* libg7221codec-arm64-apple-darwin_ios.a */; };
+		C1C89C2D2C37D8800070C427 /* libgsmcodec-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9AF92C37AD60004426FF /* libgsmcodec-arm64-apple-darwin_ios.a */; };
+		C1C89C2E2C37D8800070C427 /* libilbccodec-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9AF52C37AD60004426FF /* libilbccodec-arm64-apple-darwin_ios.a */; };
+		C1C89C2F2C37D8800070C427 /* libpj-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9AFC2C37AD60004426FF /* libpj-arm64-apple-darwin_ios.a */; };
+		C1C89C302C37D8800070C427 /* libpjlib-util-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9AFF2C37AD60004426FF /* libpjlib-util-arm64-apple-darwin_ios.a */; };
+		C1C89C312C37D8800070C427 /* libpjmedia-audiodev-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9AF82C37AD60004426FF /* libpjmedia-audiodev-arm64-apple-darwin_ios.a */; };
+		C1C89C322C37D8800070C427 /* libpjmedia-codec-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9B052C37AD60004426FF /* libpjmedia-codec-arm64-apple-darwin_ios.a */; };
+		C1C89C332C37D8800070C427 /* libpjmedia-videodev-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9AF72C37AD60004426FF /* libpjmedia-videodev-arm64-apple-darwin_ios.a */; };
+		C1C89C342C37D8800070C427 /* libpjmedia-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9B002C37AD60004426FF /* libpjmedia-arm64-apple-darwin_ios.a */; };
+		C1C89C352C37D8800070C427 /* libpjnath-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9B062C37AD60004426FF /* libpjnath-arm64-apple-darwin_ios.a */; };
+		C1C89C362C37D8800070C427 /* libpjsip-simple-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9AF62C37AD60004426FF /* libpjsip-simple-arm64-apple-darwin_ios.a */; };
+		C1C89C372C37D8800070C427 /* libpjsip-ua-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9B072C37AD60004426FF /* libpjsip-ua-arm64-apple-darwin_ios.a */; };
+		C1C89C382C37D8800070C427 /* libpjsip-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9AF42C37AD60004426FF /* libpjsip-arm64-apple-darwin_ios.a */; };
+		C1C89C392C37D8800070C427 /* libpjsua-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9AFE2C37AD60004426FF /* libpjsua-arm64-apple-darwin_ios.a */; };
+		C1C89C3A2C37D8800070C427 /* libpjsua2-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9B022C37AD60004426FF /* libpjsua2-arm64-apple-darwin_ios.a */; };
+		C1C89C3B2C37D8800070C427 /* libresample-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9AFD2C37AD60004426FF /* libresample-arm64-apple-darwin_ios.a */; };
+		C1C89C3C2C37D8800070C427 /* libspeex-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9B042C37AD60004426FF /* libspeex-arm64-apple-darwin_ios.a */; };
+		C1C89C3D2C37D8800070C427 /* libsrtp-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9B032C37AD60004426FF /* libsrtp-arm64-apple-darwin_ios.a */; };
+		C1C89C3E2C37D8800070C427 /* libwebrtc-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9B012C37AD60004426FF /* libwebrtc-arm64-apple-darwin_ios.a */; };
+		C1C89C3F2C37D8800070C427 /* libyuv-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9AFA2C37AD60004426FF /* libyuv-arm64-apple-darwin_ios.a */; };
+		C1C89C5B2C37DA750070C427 /* FooClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C89C1F2C37D3300070C427 /* FooClass.swift */; };
+		C1C89C662C37DB840070C427 /* pjlib in Resources */ = {isa = PBXBuildFile; fileRef = C11011692C36A92700560AB5 /* pjlib */; };
+		C1C89C672C37DB840070C427 /* pjlib-util in Resources */ = {isa = PBXBuildFile; fileRef = C110116B2C36A92700560AB5 /* pjlib-util */; };
+		C1C89C682C37DB840070C427 /* pjmedia in Resources */ = {isa = PBXBuildFile; fileRef = C110116C2C36A92700560AB5 /* pjmedia */; };
+		C1C89C692C37DB840070C427 /* pjnath in Resources */ = {isa = PBXBuildFile; fileRef = C110116A2C36A92700560AB5 /* pjnath */; };
+		C1C89C6A2C37DB840070C427 /* pjsip in Resources */ = {isa = PBXBuildFile; fileRef = C110116D2C36A92700560AB5 /* pjsip */; };
+		C1C89C6B2C37DB840070C427 /* third_party in Resources */ = {isa = PBXBuildFile; fileRef = C110116E2C36A92700560AB5 /* third_party */; };
+		C1C89C6D2C37DD630070C427 /* MiCallLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11011632C36A72C00560AB5 /* MiCallLog.swift */; };
+		C1C89C6E2C37DD630070C427 /* MiCallNormalize.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11011652C36A73D00560AB5 /* MiCallNormalize.swift */; };
+		C1C89C6F2C37DD630070C427 /* CustomPJSUA2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C11011542C36A61A00560AB5 /* CustomPJSUA2.cpp */; };
+		C1C89C702C37DD630070C427 /* wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = C11011582C36A66600560AB5 /* wrapper.mm */; };
+		C1C89C712C37DD630070C427 /* Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = C110114D2C36A54600560AB5 /* Call.swift */; };
+		C1C89C722C37DD630070C427 /* CallStateEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C110114F2C36A55500560AB5 /* CallStateEnum.swift */; };
+		C1C89C732C37DD630070C427 /* RegistrationStateEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11011512C36A56500560AB5 /* RegistrationStateEnum.swift */; };
+		C1C89C742C37DD630070C427 /* MiCallObserve.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11011482C36A51E00560AB5 /* MiCallObserve.swift */; };
+		C1C89C752C37DD630070C427 /* MiCallListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = C110114A2C36A52D00560AB5 /* MiCallListener.swift */; };
+		C1C89C762C37DD630070C427 /* MiCallAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11011602C36A6FC00560AB5 /* MiCallAccount.swift */; };
+		C1C89C772C37DD630070C427 /* MiCallCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C110113A2C36A46300560AB5 /* MiCallCore.swift */; };
+		C1C89C782C37DD630070C427 /* MiCallImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11011672C36A87E00560AB5 /* MiCallImp.swift */; };
+		C1C89C792C37DD630070C427 /* MiCallFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11011382C36A44500560AB5 /* MiCallFactory.swift */; };
+		C1C89C7A2C37DD6F0070C427 /* ios-swift-pjsua2-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = C1C89C182C37D2350070C427 /* ios-swift-pjsua2-Bridging-Header.h */; settings = {ATTRIBUTES = (Private, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		C1C89C652C37DB500070C427 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = file.rcproject;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# rctool\n";
+		};
+/* End PBXBuildRule section */
 
 /* Begin PBXFileReference section */
 		C107D3A12C3557D8004A36F4 /* MiCallSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MiCallSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C107D3A42C3557D8004A36F4 /* MiCallSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiCallSDK.h; sourceTree = "<group>"; };
-		C107D3AC2C35590E004A36F4 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
-		C107D3AE2C355916004A36F4 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/VideoToolbox.framework; sourceTree = DEVELOPER_DIR; };
-		C107D3B02C35591B004A36F4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
-		C107D3B22C355920004A36F4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		C107D3B42C35592D004A36F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		C107D3B62C355D27004A36F4 /* ios-swift-pjsua2-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ios-swift-pjsua2-Bridging-Header.h"; sourceTree = "<group>"; };
-		C107D3B72C355D27004A36F4 /* Core */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Core; sourceTree = "<group>"; };
-		C107D3B82C355D27004A36F4 /* Listener */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Listener; sourceTree = "<group>"; };
-		C107D3B92C355D27004A36F4 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
-		C107D3BA2C355D27004A36F4 /* Utils */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Utils; sourceTree = "<group>"; };
-		C107D3BB2C355D27004A36F4 /* PJSua2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PJSua2; sourceTree = "<group>"; };
-		C1D2129D2C364023007612E4 /* libpjsip-simple-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsip-simple-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjsip/lib/libpjsip-simple-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
-		C1D2129E2C364023007612E4 /* libpjsua-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsua-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjsip/lib/libpjsua-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
-		C1D2129F2C364023007612E4 /* libsrtp-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libsrtp-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/third_party/lib/libsrtp-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
-		C1D212A02C364023007612E4 /* libresample-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libresample-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/third_party/lib/libresample-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
-		C1D212A12C364023007612E4 /* libg7221codec-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libg7221codec-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/third_party/lib/libg7221codec-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
-		C1D212A22C364023007612E4 /* libpjmedia-videodev-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjmedia-videodev-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjmedia/lib/libpjmedia-videodev-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
-		C1D212A32C364023007612E4 /* libpj-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpj-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjlib/lib/libpj-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
-		C1D212A42C364023007612E4 /* libpjnath-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjnath-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjnath/lib/libpjnath-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
-		C1D212A52C364023007612E4 /* libyuv-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libyuv-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/third_party/lib/libyuv-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
-		C1D212A62C364023007612E4 /* libpjsua2-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsua2-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjsip/lib/libpjsua2-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
-		C1D212A72C364023007612E4 /* libpjlib-util-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjlib-util-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjlib-util/lib/libpjlib-util-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
-		C1D212A82C364023007612E4 /* libwebrtc-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwebrtc-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/third_party/lib/libwebrtc-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
-		C1D212A92C364023007612E4 /* libspeex-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libspeex-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/third_party/lib/libspeex-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
-		C1D212AA2C364023007612E4 /* libpjmedia-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjmedia-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjmedia/lib/libpjmedia-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
-		C1D212AB2C364023007612E4 /* libpjsip-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsip-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjsip/lib/libpjsip-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
-		C1D212AC2C364023007612E4 /* libpjsip-ua-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsip-ua-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjsip/lib/libpjsip-ua-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
-		C1D212AD2C364023007612E4 /* libpjmedia-audiodev-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjmedia-audiodev-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjmedia/lib/libpjmedia-audiodev-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
-		C1D212AE2C364023007612E4 /* libgsmcodec-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libgsmcodec-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/third_party/lib/libgsmcodec-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
-		C1D212AF2C364023007612E4 /* libilbccodec-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libilbccodec-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/third_party/lib/libilbccodec-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
-		C1D212B02C364023007612E4 /* libpjmedia-codec-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjmedia-codec-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjmedia/lib/libpjmedia-codec-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		C11011232C3693A600560AB5 /* MiCallSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiCallSDK.h; sourceTree = "<group>"; };
+		C11011382C36A44500560AB5 /* MiCallFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiCallFactory.swift; sourceTree = "<group>"; };
+		C110113A2C36A46300560AB5 /* MiCallCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiCallCore.swift; sourceTree = "<group>"; };
+		C11011482C36A51E00560AB5 /* MiCallObserve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiCallObserve.swift; sourceTree = "<group>"; };
+		C110114A2C36A52D00560AB5 /* MiCallListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiCallListener.swift; sourceTree = "<group>"; };
+		C110114D2C36A54600560AB5 /* Call.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Call.swift; sourceTree = "<group>"; };
+		C110114F2C36A55500560AB5 /* CallStateEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallStateEnum.swift; sourceTree = "<group>"; };
+		C11011512C36A56500560AB5 /* RegistrationStateEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationStateEnum.swift; sourceTree = "<group>"; };
+		C11011542C36A61A00560AB5 /* CustomPJSUA2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CustomPJSUA2.cpp; sourceTree = "<group>"; };
+		C11011552C36A61A00560AB5 /* CustomPJSUA2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CustomPJSUA2.hpp; sourceTree = "<group>"; };
+		C11011582C36A66600560AB5 /* wrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = wrapper.mm; sourceTree = "<group>"; };
+		C110115A2C36A67C00560AB5 /* wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wrapper.h; sourceTree = "<group>"; };
+		C11011602C36A6FC00560AB5 /* MiCallAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiCallAccount.swift; sourceTree = "<group>"; };
+		C11011632C36A72C00560AB5 /* MiCallLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiCallLog.swift; sourceTree = "<group>"; };
+		C11011652C36A73D00560AB5 /* MiCallNormalize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiCallNormalize.swift; sourceTree = "<group>"; };
+		C11011672C36A87E00560AB5 /* MiCallImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiCallImp.swift; sourceTree = "<group>"; };
+		C11011692C36A92700560AB5 /* pjlib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pjlib; sourceTree = "<group>"; };
+		C110116A2C36A92700560AB5 /* pjnath */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pjnath; sourceTree = "<group>"; };
+		C110116B2C36A92700560AB5 /* pjlib-util */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "pjlib-util"; sourceTree = "<group>"; };
+		C110116C2C36A92700560AB5 /* pjmedia */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pjmedia; sourceTree = "<group>"; };
+		C110116D2C36A92700560AB5 /* pjsip */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pjsip; sourceTree = "<group>"; };
+		C110116E2C36A92700560AB5 /* third_party */ = {isa = PBXFileReference; lastKnownFileType = folder; path = third_party; sourceTree = "<group>"; };
+		C1BD9AAD2C378DC2004426FF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		C1BD9AAF2C378DC8004426FF /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/VideoToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		C1BD9ABB2C378E51004426FF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		C1BD9ABD2C378E58004426FF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		C1BD9ABF2C378E5E004426FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C1BD9AE92C378EA7004426FF /* CoreAudioTypes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioTypes.framework; path = System/Library/Frameworks/CoreAudioTypes.framework; sourceTree = SDKROOT; };
+		C1BD9AF42C37AD60004426FF /* libpjsip-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsip-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjsip/lib/libpjsip-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		C1BD9AF52C37AD60004426FF /* libilbccodec-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libilbccodec-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/third_party/lib/libilbccodec-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		C1BD9AF62C37AD60004426FF /* libpjsip-simple-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsip-simple-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjsip/lib/libpjsip-simple-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		C1BD9AF72C37AD60004426FF /* libpjmedia-videodev-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjmedia-videodev-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjmedia/lib/libpjmedia-videodev-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		C1BD9AF82C37AD60004426FF /* libpjmedia-audiodev-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjmedia-audiodev-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjmedia/lib/libpjmedia-audiodev-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		C1BD9AF92C37AD60004426FF /* libgsmcodec-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libgsmcodec-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/third_party/lib/libgsmcodec-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		C1BD9AFA2C37AD60004426FF /* libyuv-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libyuv-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/third_party/lib/libyuv-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		C1BD9AFB2C37AD60004426FF /* libg7221codec-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libg7221codec-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/third_party/lib/libg7221codec-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		C1BD9AFC2C37AD60004426FF /* libpj-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpj-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjlib/lib/libpj-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		C1BD9AFD2C37AD60004426FF /* libresample-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libresample-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/third_party/lib/libresample-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		C1BD9AFE2C37AD60004426FF /* libpjsua-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsua-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjsip/lib/libpjsua-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		C1BD9AFF2C37AD60004426FF /* libpjlib-util-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjlib-util-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjlib-util/lib/libpjlib-util-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		C1BD9B002C37AD60004426FF /* libpjmedia-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjmedia-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjmedia/lib/libpjmedia-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		C1BD9B012C37AD60004426FF /* libwebrtc-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwebrtc-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/third_party/lib/libwebrtc-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		C1BD9B022C37AD60004426FF /* libpjsua2-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsua2-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjsip/lib/libpjsua2-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		C1BD9B032C37AD60004426FF /* libsrtp-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libsrtp-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/third_party/lib/libsrtp-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		C1BD9B042C37AD60004426FF /* libspeex-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libspeex-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/third_party/lib/libspeex-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		C1BD9B052C37AD60004426FF /* libpjmedia-codec-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjmedia-codec-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjmedia/lib/libpjmedia-codec-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		C1BD9B062C37AD60004426FF /* libpjnath-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjnath-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjnath/lib/libpjnath-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		C1BD9B072C37AD60004426FF /* libpjsip-ua-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsip-ua-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjsip/lib/libpjsip-ua-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		C1C89C182C37D2350070C427 /* ios-swift-pjsua2-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ios-swift-pjsua2-Bridging-Header.h"; sourceTree = "<group>"; };
+		C1C89C1F2C37D3300070C427 /* FooClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,31 +130,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1D212B42C36402A007612E4 /* libpjmedia-audiodev-arm64-apple-darwin_ios.a in Frameworks */,
-				C1D212C32C36402A007612E4 /* libpjmedia-videodev-arm64-apple-darwin_ios.a in Frameworks */,
-				C1D212B62C36402A007612E4 /* libpjsip-simple-arm64-apple-darwin_ios.a in Frameworks */,
-				C1D212B52C36402A007612E4 /* libpjnath-arm64-apple-darwin_ios.a in Frameworks */,
-				C1D212BD2C36402A007612E4 /* libgsmcodec-arm64-apple-darwin_ios.a in Frameworks */,
-				C107D3B52C35592D004A36F4 /* Foundation.framework in Frameworks */,
-				C1D212C22C36402A007612E4 /* libpjsip-ua-arm64-apple-darwin_ios.a in Frameworks */,
-				C107D3B32C355920004A36F4 /* AVFoundation.framework in Frameworks */,
-				C107D3AF2C355916004A36F4 /* VideoToolbox.framework in Frameworks */,
-				C1D212BF2C36402A007612E4 /* libg7221codec-arm64-apple-darwin_ios.a in Frameworks */,
-				C1D212B22C36402A007612E4 /* libpjmedia-arm64-apple-darwin_ios.a in Frameworks */,
-				C107D3AD2C35590E004A36F4 /* CoreMedia.framework in Frameworks */,
-				C1D212B32C36402A007612E4 /* libilbccodec-arm64-apple-darwin_ios.a in Frameworks */,
-				C107D3B12C35591B004A36F4 /* AudioToolbox.framework in Frameworks */,
-				C1D212C12C36402A007612E4 /* libpjlib-util-arm64-apple-darwin_ios.a in Frameworks */,
-				C1D212BE2C36402A007612E4 /* libyuv-arm64-apple-darwin_ios.a in Frameworks */,
-				C1D212C42C36402A007612E4 /* libpjsua-arm64-apple-darwin_ios.a in Frameworks */,
-				C1D212B82C36402A007612E4 /* libspeex-arm64-apple-darwin_ios.a in Frameworks */,
-				C1D212BB2C36402A007612E4 /* libpjsua2-arm64-apple-darwin_ios.a in Frameworks */,
-				C1D212BA2C36402A007612E4 /* libresample-arm64-apple-darwin_ios.a in Frameworks */,
-				C1D212B72C36402A007612E4 /* libpjmedia-codec-arm64-apple-darwin_ios.a in Frameworks */,
-				C1D212C02C36402A007612E4 /* libwebrtc-arm64-apple-darwin_ios.a in Frameworks */,
-				C1D212BC2C36402A007612E4 /* libpj-arm64-apple-darwin_ios.a in Frameworks */,
-				C1D212B92C36402A007612E4 /* libsrtp-arm64-apple-darwin_ios.a in Frameworks */,
-				C1D212B12C36402A007612E4 /* libpjsip-arm64-apple-darwin_ios.a in Frameworks */,
+				C1C89C312C37D8800070C427 /* libpjmedia-audiodev-arm64-apple-darwin_ios.a in Frameworks */,
+				C1C89C3A2C37D8800070C427 /* libpjsua2-arm64-apple-darwin_ios.a in Frameworks */,
+				C1C89C272C37D8500070C427 /* AVFoundation.framework in Frameworks */,
+				C1C89C302C37D8800070C427 /* libpjlib-util-arm64-apple-darwin_ios.a in Frameworks */,
+				C1C89C332C37D8800070C427 /* libpjmedia-videodev-arm64-apple-darwin_ios.a in Frameworks */,
+				C1C89C2E2C37D8800070C427 /* libilbccodec-arm64-apple-darwin_ios.a in Frameworks */,
+				C1C89C372C37D8800070C427 /* libpjsip-ua-arm64-apple-darwin_ios.a in Frameworks */,
+				C1C89C2D2C37D8800070C427 /* libgsmcodec-arm64-apple-darwin_ios.a in Frameworks */,
+				C1C89C262C37D84A0070C427 /* AudioToolbox.framework in Frameworks */,
+				C1C89C342C37D8800070C427 /* libpjmedia-arm64-apple-darwin_ios.a in Frameworks */,
+				C1C89C2F2C37D8800070C427 /* libpj-arm64-apple-darwin_ios.a in Frameworks */,
+				C1C89C2C2C37D8800070C427 /* libg7221codec-arm64-apple-darwin_ios.a in Frameworks */,
+				C1C89C282C37D8560070C427 /* VideoToolbox.framework in Frameworks */,
+				C1C89C3B2C37D8800070C427 /* libresample-arm64-apple-darwin_ios.a in Frameworks */,
+				C1C89C352C37D8800070C427 /* libpjnath-arm64-apple-darwin_ios.a in Frameworks */,
+				C1C89C362C37D8800070C427 /* libpjsip-simple-arm64-apple-darwin_ios.a in Frameworks */,
+				C1C89C3C2C37D8800070C427 /* libspeex-arm64-apple-darwin_ios.a in Frameworks */,
+				C1C89C292C37D85C0070C427 /* Foundation.framework in Frameworks */,
+				C1C89C3D2C37D8800070C427 /* libsrtp-arm64-apple-darwin_ios.a in Frameworks */,
+				C1C89C382C37D8800070C427 /* libpjsip-arm64-apple-darwin_ios.a in Frameworks */,
+				C1C89C392C37D8800070C427 /* libpjsua-arm64-apple-darwin_ios.a in Frameworks */,
+				C1C89C2B2C37D8730070C427 /* CoreAudioTypes.framework in Frameworks */,
+				C1C89C322C37D8800070C427 /* libpjmedia-codec-arm64-apple-darwin_ios.a in Frameworks */,
+				C1C89C2A2C37D8610070C427 /* CoreMedia.framework in Frameworks */,
+				C1C89C3E2C37D8800070C427 /* libwebrtc-arm64-apple-darwin_ios.a in Frameworks */,
+				C1C89C3F2C37D8800070C427 /* libyuv-arm64-apple-darwin_ios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,13 +182,15 @@
 		C107D3A32C3557D8004A36F4 /* MiCallSDK */ = {
 			isa = PBXGroup;
 			children = (
-				C107D3B72C355D27004A36F4 /* Core */,
-				C107D3B62C355D27004A36F4 /* ios-swift-pjsua2-Bridging-Header.h */,
-				C107D3B82C355D27004A36F4 /* Listener */,
-				C107D3B92C355D27004A36F4 /* Model */,
-				C107D3BB2C355D27004A36F4 /* PJSua2 */,
-				C107D3BA2C355D27004A36F4 /* Utils */,
-				C107D3A42C3557D8004A36F4 /* MiCallSDK.h */,
+				C1C89C182C37D2350070C427 /* ios-swift-pjsua2-Bridging-Header.h */,
+				C11011622C36A71B00560AB5 /* Utils */,
+				C11011532C36A5F600560AB5 /* PJSua2 */,
+				C110114C2C36A53300560AB5 /* Model */,
+				C110113C2C36A4A500560AB5 /* Listener */,
+				C11011372C36A32600560AB5 /* Core */,
+				C11011232C3693A600560AB5 /* MiCallSDK.h */,
+				C11011382C36A44500560AB5 /* MiCallFactory.swift */,
+				C1C89C1F2C37D3300070C427 /* FooClass.swift */,
 			);
 			path = MiCallSDK;
 			sourceTree = "<group>";
@@ -147,33 +198,97 @@
 		C107D3AB2C35590E004A36F4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C1D212A12C364023007612E4 /* libg7221codec-arm64-apple-darwin_ios.a */,
-				C1D212AE2C364023007612E4 /* libgsmcodec-arm64-apple-darwin_ios.a */,
-				C1D212AF2C364023007612E4 /* libilbccodec-arm64-apple-darwin_ios.a */,
-				C1D212A32C364023007612E4 /* libpj-arm64-apple-darwin_ios.a */,
-				C1D212A72C364023007612E4 /* libpjlib-util-arm64-apple-darwin_ios.a */,
-				C1D212AA2C364023007612E4 /* libpjmedia-arm64-apple-darwin_ios.a */,
-				C1D212AD2C364023007612E4 /* libpjmedia-audiodev-arm64-apple-darwin_ios.a */,
-				C1D212B02C364023007612E4 /* libpjmedia-codec-arm64-apple-darwin_ios.a */,
-				C1D212A22C364023007612E4 /* libpjmedia-videodev-arm64-apple-darwin_ios.a */,
-				C1D212A42C364023007612E4 /* libpjnath-arm64-apple-darwin_ios.a */,
-				C1D212AB2C364023007612E4 /* libpjsip-arm64-apple-darwin_ios.a */,
-				C1D2129D2C364023007612E4 /* libpjsip-simple-arm64-apple-darwin_ios.a */,
-				C1D212AC2C364023007612E4 /* libpjsip-ua-arm64-apple-darwin_ios.a */,
-				C1D2129E2C364023007612E4 /* libpjsua-arm64-apple-darwin_ios.a */,
-				C1D212A62C364023007612E4 /* libpjsua2-arm64-apple-darwin_ios.a */,
-				C1D212A02C364023007612E4 /* libresample-arm64-apple-darwin_ios.a */,
-				C1D212A92C364023007612E4 /* libspeex-arm64-apple-darwin_ios.a */,
-				C1D2129F2C364023007612E4 /* libsrtp-arm64-apple-darwin_ios.a */,
-				C1D212A82C364023007612E4 /* libwebrtc-arm64-apple-darwin_ios.a */,
-				C1D212A52C364023007612E4 /* libyuv-arm64-apple-darwin_ios.a */,
-				C107D3B42C35592D004A36F4 /* Foundation.framework */,
-				C107D3B22C355920004A36F4 /* AVFoundation.framework */,
-				C107D3B02C35591B004A36F4 /* AudioToolbox.framework */,
-				C107D3AE2C355916004A36F4 /* VideoToolbox.framework */,
-				C107D3AC2C35590E004A36F4 /* CoreMedia.framework */,
+				C1BD9AFB2C37AD60004426FF /* libg7221codec-arm64-apple-darwin_ios.a */,
+				C1BD9AF92C37AD60004426FF /* libgsmcodec-arm64-apple-darwin_ios.a */,
+				C1BD9AF52C37AD60004426FF /* libilbccodec-arm64-apple-darwin_ios.a */,
+				C1BD9AFC2C37AD60004426FF /* libpj-arm64-apple-darwin_ios.a */,
+				C1BD9AFF2C37AD60004426FF /* libpjlib-util-arm64-apple-darwin_ios.a */,
+				C1BD9B002C37AD60004426FF /* libpjmedia-arm64-apple-darwin_ios.a */,
+				C1BD9AF82C37AD60004426FF /* libpjmedia-audiodev-arm64-apple-darwin_ios.a */,
+				C1BD9B052C37AD60004426FF /* libpjmedia-codec-arm64-apple-darwin_ios.a */,
+				C1BD9AF72C37AD60004426FF /* libpjmedia-videodev-arm64-apple-darwin_ios.a */,
+				C1BD9B062C37AD60004426FF /* libpjnath-arm64-apple-darwin_ios.a */,
+				C1BD9AF42C37AD60004426FF /* libpjsip-arm64-apple-darwin_ios.a */,
+				C1BD9AF62C37AD60004426FF /* libpjsip-simple-arm64-apple-darwin_ios.a */,
+				C1BD9B072C37AD60004426FF /* libpjsip-ua-arm64-apple-darwin_ios.a */,
+				C1BD9AFE2C37AD60004426FF /* libpjsua-arm64-apple-darwin_ios.a */,
+				C1BD9B022C37AD60004426FF /* libpjsua2-arm64-apple-darwin_ios.a */,
+				C1BD9AFD2C37AD60004426FF /* libresample-arm64-apple-darwin_ios.a */,
+				C1BD9B042C37AD60004426FF /* libspeex-arm64-apple-darwin_ios.a */,
+				C1BD9B032C37AD60004426FF /* libsrtp-arm64-apple-darwin_ios.a */,
+				C1BD9B012C37AD60004426FF /* libwebrtc-arm64-apple-darwin_ios.a */,
+				C1BD9AFA2C37AD60004426FF /* libyuv-arm64-apple-darwin_ios.a */,
+				C1BD9AE92C378EA7004426FF /* CoreAudioTypes.framework */,
+				C1BD9ABF2C378E5E004426FF /* Foundation.framework */,
+				C1BD9ABD2C378E58004426FF /* AVFoundation.framework */,
+				C1BD9ABB2C378E51004426FF /* CoreMedia.framework */,
+				C1BD9AAF2C378DC8004426FF /* VideoToolbox.framework */,
+				C1BD9AAD2C378DC2004426FF /* AudioToolbox.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C11011372C36A32600560AB5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C110115F2C36A6EF00560AB5 /* Account */,
+				C110113A2C36A46300560AB5 /* MiCallCore.swift */,
+				C11011672C36A87E00560AB5 /* MiCallImp.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C110113C2C36A4A500560AB5 /* Listener */ = {
+			isa = PBXGroup;
+			children = (
+				C11011482C36A51E00560AB5 /* MiCallObserve.swift */,
+				C110114A2C36A52D00560AB5 /* MiCallListener.swift */,
+			);
+			path = Listener;
+			sourceTree = "<group>";
+		};
+		C110114C2C36A53300560AB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C110114D2C36A54600560AB5 /* Call.swift */,
+				C110114F2C36A55500560AB5 /* CallStateEnum.swift */,
+				C11011512C36A56500560AB5 /* RegistrationStateEnum.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C11011532C36A5F600560AB5 /* PJSua2 */ = {
+			isa = PBXGroup;
+			children = (
+				C11011692C36A92700560AB5 /* pjlib */,
+				C110116B2C36A92700560AB5 /* pjlib-util */,
+				C110116C2C36A92700560AB5 /* pjmedia */,
+				C110116A2C36A92700560AB5 /* pjnath */,
+				C110116D2C36A92700560AB5 /* pjsip */,
+				C110116E2C36A92700560AB5 /* third_party */,
+				C11011542C36A61A00560AB5 /* CustomPJSUA2.cpp */,
+				C11011552C36A61A00560AB5 /* CustomPJSUA2.hpp */,
+				C11011582C36A66600560AB5 /* wrapper.mm */,
+				C110115A2C36A67C00560AB5 /* wrapper.h */,
+			);
+			path = PJSua2;
+			sourceTree = "<group>";
+		};
+		C110115F2C36A6EF00560AB5 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				C11011602C36A6FC00560AB5 /* MiCallAccount.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		C11011622C36A71B00560AB5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C11011632C36A72C00560AB5 /* MiCallLog.swift */,
+				C11011652C36A73D00560AB5 /* MiCallNormalize.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,8 +298,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C107D3BC2C355D27004A36F4 /* ios-swift-pjsua2-Bridging-Header.h in Headers */,
-				C107D3A52C3557D8004A36F4 /* MiCallSDK.h in Headers */,
+				C1BD9B232C37CB58004426FF /* MiCallSDK.h in Headers */,
+				C1C89C7A2C37DD6F0070C427 /* ios-swift-pjsua2-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +316,7 @@
 				C107D39F2C3557D8004A36F4 /* Resources */,
 			);
 			buildRules = (
+				C1C89C652C37DB500070C427 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -220,6 +336,7 @@
 				TargetAttributes = {
 					C107D3A02C3557D8004A36F4 = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 					};
 				};
 			};
@@ -246,11 +363,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C107D3C12C355D27004A36F4 /* PJSua2 in Resources */,
-				C107D3BF2C355D27004A36F4 /* Model in Resources */,
-				C107D3BE2C355D27004A36F4 /* Listener in Resources */,
-				C107D3C02C355D27004A36F4 /* Utils in Resources */,
-				C107D3BD2C355D27004A36F4 /* Core in Resources */,
+				C1C89C662C37DB840070C427 /* pjlib in Resources */,
+				C1C89C672C37DB840070C427 /* pjlib-util in Resources */,
+				C1C89C682C37DB840070C427 /* pjmedia in Resources */,
+				C1C89C692C37DB840070C427 /* pjnath in Resources */,
+				C1C89C6A2C37DB840070C427 /* pjsip in Resources */,
+				C1C89C6B2C37DB840070C427 /* third_party in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +379,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1C89C6D2C37DD630070C427 /* MiCallLog.swift in Sources */,
+				C1C89C6E2C37DD630070C427 /* MiCallNormalize.swift in Sources */,
+				C1C89C6F2C37DD630070C427 /* CustomPJSUA2.cpp in Sources */,
+				C1C89C702C37DD630070C427 /* wrapper.mm in Sources */,
+				C1C89C712C37DD630070C427 /* Call.swift in Sources */,
+				C1C89C722C37DD630070C427 /* CallStateEnum.swift in Sources */,
+				C1C89C732C37DD630070C427 /* RegistrationStateEnum.swift in Sources */,
+				C1C89C742C37DD630070C427 /* MiCallObserve.swift in Sources */,
+				C1C89C752C37DD630070C427 /* MiCallListener.swift in Sources */,
+				C1C89C762C37DD630070C427 /* MiCallAccount.swift in Sources */,
+				C1C89C772C37DD630070C427 /* MiCallCore.swift in Sources */,
+				C1C89C782C37DD630070C427 /* MiCallImp.swift in Sources */,
+				C1C89C792C37DD630070C427 /* MiCallFactory.swift in Sources */,
+				C1C89C5B2C37DA750070C427 /* FooClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,31 +527,46 @@
 		C107D3A92C3557D8004A36F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = NO;
+				APPLY_RULES_IN_COPY_HEADERS = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 772AR38V98;
+				DOCC_EXTRACT_OBJC_INFO_FOR_SWIFT_SYMBOLS = NO;
+				DOCC_EXTRACT_SWIFT_INFO_FOR_OBJC_SYMBOLS = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_TESTING_SEARCH_PATHS = NO;
+				EXCLUDED_ARCHS = "x86_64 arm64";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"PJ_AUTOCONF=1",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)",
 					"$(SRCROOT)/Libraries",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Libraries",
-					"\"$(SRCROOT)/MiCallSDK/PJSUA2/pjlib/include\"",
-					"\"$(SRCROOT)/MiCallSDK/PJSUA2/pjlib-util/include\"",
-					"\"$(SRCROOT)/MiCallSDK/PJSUA2/pjmedia/include\"",
-					"\"$(SRCROOT)/MiCallSDK/PJSUA2/pjnath/include\"",
-					"\"$(SRCROOT)/MiCallSDK/PJSUA2/pjsip/include\"",
-					"\"$(SRCROOT)/MiCallSDK/PJSUA2/third_party/include\"",
+					"\"$(SRCROOT)/MiCallSDK/PJSua2/pjlib/include\"",
+					"\"$(SRCROOT)/MiCallSDK/PJSua2/pjlib-util/include\"",
+					"\"$(SRCROOT)/MiCallSDK/PJSua2/pjmedia/include\"",
+					"\"$(SRCROOT)/MiCallSDK/PJSua2/pjnath/include\"",
+					"\"$(SRCROOT)/MiCallSDK/PJSua2/pjsip/include\"",
+					"\"$(SRCROOT)/MiCallSDK/PJSua2/third_party/include\"",
 				);
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/MiCallSDK";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -429,55 +576,80 @@
 					"$(inherited)",
 					"$(SRCROOT)",
 					"$(PROJECT_DIR)",
-					"$(SRCROOT)/MiCallSDK/Libraries",
-					"$(PROJECT_DIR)/MiCallSDK/Libraries",
-					"\"$(SRCROOT)/MiCallSDK/PJSUA2/pjlib/lib\"",
-					"\"$(SRCROOT)/MiCallSDK/PJSUA2/pjlib-util/lib\"",
-					"\"$(SRCROOT)/MiCallSDK/PJSUA2/pjmedia/lib\"",
-					"\"$(SRCROOT)/MiCallSDK/PJSUA2/pjnath/lib\"",
-					"\"$(SRCROOT)/MiCallSDK/PJSUA2/pjsip/lib\"",
-					"\"$(SRCROOT)/MiCallSDK/PJSUA2/third_party/lib\"",
+					"\"$(SRCROOT)/MiCallSDK/PJSua2/pjlib/lib\"",
+					"\"$(SRCROOT)/MiCallSDK/PJSua2/pjlib-util/lib\"",
+					"\"$(SRCROOT)/MiCallSDK/PJSua2/pjmedia/lib\"",
+					"\"$(SRCROOT)/MiCallSDK/PJSua2/pjnath/lib\"",
+					"\"$(SRCROOT)/MiCallSDK/PJSua2/pjsip/lib\"",
+					"\"$(SRCROOT)/MiCallSDK/PJSua2/third_party/lib\"",
+					"$(PROJECT_DIR)/Libraries",
+					"$(SRCROOT)/Libraries",
 				);
+				LOCALIZED_STRING_SWIFTUI_SUPPORT = YES;
+				MACH_O_TYPE = mh_dylib;
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				ONLY_ACTIVE_ARCH = YES;
+				PRIVATE_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Privates";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vn.build.mitek.MiCallSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
+				SKIP_INSTALL = NO;
+				SWIFT_DISABLE_SAFETY_CHECKS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_INSTALL_MODULE = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = MiCallSDK/MiCallSDK.h;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "MiCallSDK-Swift.h";
+				SWIFT_OBJC_INTEROP_MODE = objc;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = YES;
 			};
 			name = Debug;
 		};
 		C107D3AA2C3557D8004A36F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = NO;
+				APPLY_RULES_IN_COPY_HEADERS = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 772AR38V98;
+				DOCC_EXTRACT_OBJC_INFO_FOR_SWIFT_SYMBOLS = NO;
+				DOCC_EXTRACT_SWIFT_INFO_FOR_OBJC_SYMBOLS = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_TESTING_SEARCH_PATHS = NO;
+				EXCLUDED_ARCHS = "x86_64 arm64";
+				GCC_PREPROCESSOR_DEFINITIONS = "PJ_AUTOCONF=1";
 				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)",
 					"$(SRCROOT)/Libraries",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Libraries",
-					"\"$(SRCROOT)/MiCallSDK/PJSUA2/pjlib/include\"",
-					"\"$(SRCROOT)/MiCallSDK/PJSUA2/pjlib-util/include\"",
-					"\"$(SRCROOT)/MiCallSDK/PJSUA2/pjmedia/include\"",
-					"\"$(SRCROOT)/MiCallSDK/PJSUA2/pjnath/include\"",
-					"\"$(SRCROOT)/MiCallSDK/PJSUA2/pjsip/include\"",
-					"\"$(SRCROOT)/MiCallSDK/PJSUA2/third_party/include\"",
+					"\"$(SRCROOT)/MiCallSDK/PJSua2/pjlib/include\"",
+					"\"$(SRCROOT)/MiCallSDK/PJSua2/pjlib-util/include\"",
+					"\"$(SRCROOT)/MiCallSDK/PJSua2/pjmedia/include\"",
+					"\"$(SRCROOT)/MiCallSDK/PJSua2/pjnath/include\"",
+					"\"$(SRCROOT)/MiCallSDK/PJSua2/pjsip/include\"",
+					"\"$(SRCROOT)/MiCallSDK/PJSua2/third_party/include\"",
 				);
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/MiCallSDK";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -487,25 +659,39 @@
 					"$(inherited)",
 					"$(SRCROOT)",
 					"$(PROJECT_DIR)",
-					"$(SRCROOT)/MiCallSDK/Libraries",
-					"$(PROJECT_DIR)/MiCallSDK/Libraries",
-					"\"$(SRCROOT)/MiCallSDK/PJSUA2/pjlib/lib\"",
-					"\"$(SRCROOT)/MiCallSDK/PJSUA2/pjlib-util/lib\"",
-					"\"$(SRCROOT)/MiCallSDK/PJSUA2/pjmedia/lib\"",
-					"\"$(SRCROOT)/MiCallSDK/PJSUA2/pjnath/lib\"",
-					"\"$(SRCROOT)/MiCallSDK/PJSUA2/pjsip/lib\"",
-					"\"$(SRCROOT)/MiCallSDK/PJSUA2/third_party/lib\"",
+					"\"$(SRCROOT)/MiCallSDK/PJSua2/pjlib/lib\"",
+					"\"$(SRCROOT)/MiCallSDK/PJSua2/pjlib-util/lib\"",
+					"\"$(SRCROOT)/MiCallSDK/PJSua2/pjmedia/lib\"",
+					"\"$(SRCROOT)/MiCallSDK/PJSua2/pjnath/lib\"",
+					"\"$(SRCROOT)/MiCallSDK/PJSua2/pjsip/lib\"",
+					"\"$(SRCROOT)/MiCallSDK/PJSua2/third_party/lib\"",
+					"$(PROJECT_DIR)/Libraries",
+					"$(SRCROOT)/Libraries",
 				);
+				LOCALIZED_STRING_SWIFTUI_SUPPORT = YES;
+				MACH_O_TYPE = mh_dylib;
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				ONLY_ACTIVE_ARCH = YES;
+				PRIVATE_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Privates";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vn.build.mitek.MiCallSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
+				SKIP_INSTALL = NO;
+				SWIFT_DISABLE_SAFETY_CHECKS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_INSTALL_MODULE = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = MiCallSDK/MiCallSDK.h;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "MiCallSDK-Swift.h";
+				SWIFT_OBJC_INTEROP_MODE = objc;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = YES;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};

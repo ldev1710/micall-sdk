@@ -10,7 +10,7 @@ import Foundation
 func onIncomingCall(){
     let ext = MiCallNormalize.normalizeRemoteUri(raw: String(CPPWrapper().incomingCallInfoWrapper()))
     let call = Call(id: 1, remoteExtension: ext)
-    MiCallSDK.observingCallState(state: CallStateEnum.INCOMING, call: call)
+    MiCallCore.observingCallState(state: CallStateEnum.INCOMING, call: call)
 }
 
 class CallAnswerCode {
@@ -28,19 +28,19 @@ class CallAnswerCode {
 func onCallStateChanged(call_answer_code: Int32){
     if (call_answer_code == CallAnswerCode.end) {
         let call: Call = Call(id: -1, remoteExtension: "")
-        MiCallSDK.observingCallState(state: CallStateEnum.END, call: call)
+        MiCallCore.observingCallState(state: CallStateEnum.END, call: call)
     } else if (call_answer_code == CallAnswerCode.accept) {
-        MiCallSDK.observingCallState(state: CallStateEnum.ACCEPTED, call: MiCallSDK.currCall!)
+        MiCallCore.observingCallState(state: CallStateEnum.ACCEPTED, call: MiCallCore.currCall!)
     } else if (call_answer_code == CallAnswerCode.streaming){
-        MiCallSDK.observingCallState(state: CallStateEnum.STREAMING, call: MiCallSDK.currCall!)
+        MiCallCore.observingCallState(state: CallStateEnum.STREAMING, call: MiCallCore.currCall!)
     } else if(call_answer_code == CallAnswerCode.connecting){
-        MiCallSDK.observingCallState(state: CallStateEnum.CONNECTING, call: MiCallSDK.currCall!)
+        MiCallCore.observingCallState(state: CallStateEnum.CONNECTING, call: MiCallCore.currCall!)
     } else if(call_answer_code == CallAnswerCode.early){
-        MiCallSDK.observingCallState(state: CallStateEnum.EARLY, call: MiCallSDK.currCall!)
+        MiCallCore.observingCallState(state: CallStateEnum.EARLY, call: MiCallCore.currCall!)
     } else if([CallAnswerCode.unMute,CallAnswerCode.mute].contains(call_answer_code)){
-        MiCallSDK.observingCallState(state: call_answer_code == CallAnswerCode.mute ? CallStateEnum.MUTE : CallStateEnum.UN_MUTE, call: MiCallSDK.currCall!)
+        MiCallCore.observingCallState(state: call_answer_code == CallAnswerCode.mute ? CallStateEnum.MUTE : CallStateEnum.UN_MUTE, call: MiCallCore.currCall!)
     } else if([CallAnswerCode.unHold,CallAnswerCode.hold].contains(call_answer_code)){
-        MiCallSDK.observingCallState(state: call_answer_code == CallAnswerCode.hold ? CallStateEnum.HOLD : CallStateEnum.UN_HOLD, call: MiCallSDK.currCall!)
+        MiCallCore.observingCallState(state: call_answer_code == CallAnswerCode.hold ? CallStateEnum.HOLD : CallStateEnum.UN_HOLD, call: MiCallCore.currCall!)
     }
 }
 
@@ -60,5 +60,5 @@ func onRegistrationChanged(isRegister: Bool,code: Int32){
         }
     }
     let message = code == 200 ? "Successfull" : "Failed"
-    MiCallSDK.observingRegState(state: state, message: message)
+    MiCallCore.observingRegState(state: state, message: message)
 }
