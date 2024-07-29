@@ -8,59 +8,59 @@
 import Foundation
 
 public class MiCallFactory {
-    static func initialize(apiKey: String){
+    public static func initialize(apiKey: String){
         MiCallCore.initialize(apiKey: apiKey);
     }
-    static func register(){
+    public static func register(){
         MiCallCore.register();
     }
     
-    static func addMiCallListener(listener: MiCallListener){
+    public static func addMiCallListener(listener: MiCallListener){
         MiCallCore.addMiCallListener(listener: listener);
     }
     
-    static func toggleSpeaker(isEnable: Bool){
+    public static func toggleSpeaker(isEnable: Bool){
         MiCallCore.toggleSpeaker(isEnable: isEnable);
     }
     
-    static func hold(){
+    public static func hold(){
         MiCallCore.hold();
     }
-    static func setAutoAnswer(isEnable: Bool ){
+    public static func setAutoAnswer(isEnable: Bool ){
         MiCallCore.setAutoAnswer(isEnable: isEnable);
     }
-    static func unHold(){
+    public static func unHold(){
         MiCallCore.unHold();
     }
     
-    static func toggleMute(isMute: Bool){
+    public static func toggleMute(isMute: Bool){
         MiCallCore.toggleMute(isMute: isMute);
     }
     
-    static func delete(){
+    public static func delete(){
 //        MiCallCore.destroy();
     }
     
-    static func transfer(phone: String ){
+    public static func transfer(phone: String ){
         MiCallCore.transfer(phone: phone);
     }
     
-    static func unRegister(){
+    public static func unRegister(){
         MiCallCore.unRegister();
     }
     
-    static func makeCall(phone: String){
+    public static func makeCall(phone: String){
         MiCallCore.makeCall(phone: phone);
     }
     
-    static func getCurrentCall() {
+    public static func getCurrentCall() {
 //        return MiCallCore.getCurrentCall();
     }
     
-    static func hangup(){
+    public static func hangup(){
         MiCallCore.hangup();
     }
-    static func answer(){
+    public static func answer(){
         MiCallCore.answer();
     }
 }
