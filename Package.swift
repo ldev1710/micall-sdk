@@ -6,19 +6,19 @@ let package = Package(
     name: "MiCallSDK",
     products: [
         .library(name: "MiCallSDK", targets: ["MiCallSDK"]),
+        .executable(name: "PJSua2", targets: ["PJSua2"])
     ],
     dependencies: [
     ],
     targets: [
         .target(
             name: "MiCallSDK",
-            dependencies:["PJSua2"],
             path: "./MiCallSDK"
         ),
         .target(
             name: "PJSua2",
-            path: "include",
-            publicHeadersPath: "include"
+            path: "./PJSua2/include",
+            publicHeadersPath: "./PJSua2/include"
         ),
     ]
 )
