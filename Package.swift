@@ -12,7 +12,8 @@ let package = Package(
     targets: [
         .target(
             name: "MiCallSDK",
-            dependencies:["PJSua2"]
+            dependencies:["PJSua2"],
+            path: "./MiCallSDK"
         ),
         .target(
             name: "PJSua2",
