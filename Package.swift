@@ -17,7 +17,7 @@ let package = Package(
         ),
         .target(
             name: "PJSua2",
-            publicHeadersPath: "./"
+            path: "./"
         ),
     ]
 )
