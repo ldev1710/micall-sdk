@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "wrapper.h"
 //! Project version number for PJSua2.
 FOUNDATION_EXPORT double PJSua2VersionNumber;
 
