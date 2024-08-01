@@ -84,7 +84,6 @@
 		C18034E42C57473A00EFAF11 /* CustomPJSUA2.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C1634A702C53B0E20078D3EF /* CustomPJSUA2.hpp */; };
 		C18034E62C57473F00EFAF11 /* wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = C1634A752C53B1280078D3EF /* wrapper.h */; };
 		C18034E72C57474000EFAF11 /* wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = C1634A752C53B1280078D3EF /* wrapper.h */; };
-		C1C8C1F32C5B2E77002730D2 /* PJSua2.h in Headers */ = {isa = PBXBuildFile; fileRef = C18034D82C57471300EFAF11 /* PJSua2.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -352,7 +351,6 @@
 				C1634A722C53B0E20078D3EF /* CustomPJSUA2.hpp in Headers */,
 				C18034E72C57474000EFAF11 /* wrapper.h in Headers */,
 				C1634A612C53B0160078D3EF /* MiCallSDK.h in Headers */,
-				C1C8C1F32C5B2E77002730D2 /* PJSua2.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
