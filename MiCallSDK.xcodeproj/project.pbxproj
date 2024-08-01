@@ -653,7 +653,7 @@
 					"\"$(SRCROOT)/PJSua2/include/pjlib/include\"",
 					"\"$(SRCROOT)/PJSua2/include/pjlib-util/include\"",
 					"\"$(SRCROOT)/PJSua2/include/pjsip/include\"",
-					"\"$(SRCROOT)/PJSua2/include/third_party/include\"",
+					"\"$(SRCROOT)/PJSua2/include/third_party/yuv/include\"",
 					"\"$(SRCROOT)/PJSua2/include/pjnath/include\"",
 					"\"$(SRCROOT)/PJSua2/include/pjmedia/include\"",
 				);
@@ -716,7 +716,7 @@
 					"\"$(SRCROOT)/PJSua2/include/pjlib/include\"",
 					"\"$(SRCROOT)/PJSua2/include/pjlib-util/include\"",
 					"\"$(SRCROOT)/PJSua2/include/pjsip/include\"",
-					"\"$(SRCROOT)/PJSua2/include/third_party/include\"",
+					"\"$(SRCROOT)/PJSua2/include/third_party/yuv/include\"",
 					"\"$(SRCROOT)/PJSua2/include/pjnath/include\"",
 					"\"$(SRCROOT)/PJSua2/include/pjmedia/include\"",
 				);
@@ -780,7 +780,7 @@
 					"\"$(SRCROOT)/PJSua2/include/pjmedia/include\"",
 					"\"$(SRCROOT)/PJSua2/include/pjsip/include\"",
 					"\"$(SRCROOT)/PJSua2/include/pjnath/include\"",
-					"\"$(SRCROOT)/PJSua2/include/third_party/include\"",
+					"\"$(SRCROOT)/PJSua2/include/third_party/yuv/include\"",
 				);
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -833,7 +833,7 @@
 					"\"$(SRCROOT)/PJSua2/include/pjmedia/include\"",
 					"\"$(SRCROOT)/PJSua2/include/pjsip/include\"",
 					"\"$(SRCROOT)/PJSua2/include/pjnath/include\"",
-					"\"$(SRCROOT)/PJSua2/include/third_party/include\"",
+					"\"$(SRCROOT)/PJSua2/include/third_party/yuv/include\"",
 				);
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
