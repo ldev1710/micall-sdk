@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C10197502C3BD784008E3767 /* wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = C110115A2C36A67C00560AB5 /* wrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1BD9B232C37CB58004426FF /* MiCallSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C11011232C3693A600560AB5 /* MiCallSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1C89C262C37D84A0070C427 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9AAD2C378DC2004426FF /* AudioToolbox.framework */; };
 		C1C89C272C37D8500070C427 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9ABD2C378E58004426FF /* AVFoundation.framework */; };
@@ -295,7 +294,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1BD9B232C37CB58004426FF /* MiCallSDK.h in Headers */,
-				C10197502C3BD784008E3767 /* wrapper.h in Headers */,
 				C1C89C7A2C37DD6F0070C427 /* ios-swift-pjsua2-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
