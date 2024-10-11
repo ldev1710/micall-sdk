@@ -10,6 +10,6 @@ spec.platform = :ios, "13.0"
 spec.swift_version = '5.0'
 spec.source = { :git => "https://github.com/ldev1710/micall-sdk-ios.git", :tag => spec.version.to_s }
 spec.source_files = "MiCallSDK/MiCallSDK/Classes/**/*.swift"
-spec.public_header_files = 'MiCallSDK/MiCallSDK/Classes/*.h'
+spec.public_header_files = 'MiCallSDK/MiCallSDK/Classes/**/*.h'
 spec.frameworks = 'VideoToolbox', 'AudioToolbox', 'AVFoundation', 'CoreMedia','Foundation'
 end
