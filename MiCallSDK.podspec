@@ -1,9 +1,9 @@
 Pod::Spec.new do |spec|
 spec.name = "MiCallSDK"
-spec.version = "1.0.0"
+spec.version = "1.0.1"
 spec.summary = "MiCallSDK Framework"
 spec.description = "MiCallSDK easy to make call/video call app2app, app2phone"
-spec.homepage = "https://github.com/ldev1211/micall-sdk-ios"
+spec.homepage = "https://github.com/ldev1710/micall-sdk-ios"
 spec.license = { :type => "MIT", :file => "LICENSE" }
 spec.author = { 'LDev' => 'luongdien1211@gmail.com' }
 spec.platform = :ios, "13.0"

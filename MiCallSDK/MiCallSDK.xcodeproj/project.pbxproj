@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C1BD9B232C37CB58004426FF /* MiCallSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C11011232C3693A600560AB5 /* MiCallSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1C89C262C37D84A0070C427 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9AAD2C378DC2004426FF /* AudioToolbox.framework */; };
 		C1C89C272C37D8500070C427 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9ABD2C378E58004426FF /* AVFoundation.framework */; };
 		C1C89C282C37D8560070C427 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9AAF2C378DC8004426FF /* VideoToolbox.framework */; };
@@ -52,7 +51,7 @@
 		C1C89C772C37DD630070C427 /* MiCallCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C110113A2C36A46300560AB5 /* MiCallCore.swift */; };
 		C1C89C782C37DD630070C427 /* MiCallImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11011672C36A87E00560AB5 /* MiCallImp.swift */; };
 		C1C89C792C37DD630070C427 /* MiCallFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11011382C36A44500560AB5 /* MiCallFactory.swift */; };
-		C1C89C7A2C37DD6F0070C427 /* ios-swift-pjsua2-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = C1C89C182C37D2350070C427 /* ios-swift-pjsua2-Bridging-Header.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F19407C02CB903E100E90475 /* MiCallSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C11011232C3693A600560AB5 /* MiCallSDK.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -293,8 +292,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1BD9B232C37CB58004426FF /* MiCallSDK.h in Headers */,
-				C1C89C7A2C37DD6F0070C427 /* ios-swift-pjsua2-Bridging-Header.h in Headers */,
+				F19407C02CB903E100E90475 /* MiCallSDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
