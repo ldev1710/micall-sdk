@@ -1,4 +1,4 @@
 #import <Foundation/Foundation.h>
-#import "ios-swift-pjsua2-Bridging-Header.h"
+#import "wrapper.h"
 FOUNDATION_EXPORT double MiCallSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char MiCallSDKVersionString[];

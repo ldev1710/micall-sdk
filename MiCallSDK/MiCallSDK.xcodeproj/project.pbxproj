@@ -51,8 +51,7 @@
 		C1C89C772C37DD630070C427 /* MiCallCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C110113A2C36A46300560AB5 /* MiCallCore.swift */; };
 		C1C89C782C37DD630070C427 /* MiCallImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11011672C36A87E00560AB5 /* MiCallImp.swift */; };
 		C1C89C792C37DD630070C427 /* MiCallFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11011382C36A44500560AB5 /* MiCallFactory.swift */; };
-		F19407C02CB903E100E90475 /* MiCallSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C11011232C3693A600560AB5 /* MiCallSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F19407C12CB9071000E90475 /* ios-swift-pjsua2-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = C1C89C182C37D2350070C427 /* ios-swift-pjsua2-Bridging-Header.h */; };
+		F19407C42CB909C700E90475 /* MiCallSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = F19407C32CB909C700E90475 /* MiCallSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -71,7 +70,6 @@
 
 /* Begin PBXFileReference section */
 		C107D3A12C3557D8004A36F4 /* MiCallSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MiCallSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C11011232C3693A600560AB5 /* MiCallSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiCallSDK.h; sourceTree = "<group>"; };
 		C11011382C36A44500560AB5 /* MiCallFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiCallFactory.swift; sourceTree = "<group>"; };
 		C110113A2C36A46300560AB5 /* MiCallCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiCallCore.swift; sourceTree = "<group>"; };
 		C11011482C36A51E00560AB5 /* MiCallObserve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiCallObserve.swift; sourceTree = "<group>"; };
@@ -119,7 +117,7 @@
 		C1BD9B052C37AD60004426FF /* libpjmedia-codec-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjmedia-codec-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjmedia/lib/libpjmedia-codec-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
 		C1BD9B062C37AD60004426FF /* libpjnath-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjnath-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjnath/lib/libpjnath-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
 		C1BD9B072C37AD60004426FF /* libpjsip-ua-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsip-ua-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjsip/lib/libpjsip-ua-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
-		C1C89C182C37D2350070C427 /* ios-swift-pjsua2-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ios-swift-pjsua2-Bridging-Header.h"; sourceTree = "<group>"; };
+		F19407C32CB909C700E90475 /* MiCallSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiCallSDK.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,7 +177,6 @@
 			isa = PBXGroup;
 			children = (
 				F19407C22CB907DA00E90475 /* Classes */,
-				C11011232C3693A600560AB5 /* MiCallSDK.h */,
 			);
 			path = MiCallSDK;
 			sourceTree = "<group>";
@@ -283,7 +280,7 @@
 		F19407C22CB907DA00E90475 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C1C89C182C37D2350070C427 /* ios-swift-pjsua2-Bridging-Header.h */,
+				F19407C32CB909C700E90475 /* MiCallSDK.h */,
 				C11011382C36A44500560AB5 /* MiCallFactory.swift */,
 				C11011622C36A71B00560AB5 /* Utils */,
 				C11011532C36A5F600560AB5 /* PJSua2 */,
@@ -301,8 +298,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F19407C02CB903E100E90475 /* MiCallSDK.h in Headers */,
-				F19407C12CB9071000E90475 /* ios-swift-pjsua2-Bridging-Header.h in Headers */,
+				F19407C42CB909C700E90475 /* MiCallSDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
