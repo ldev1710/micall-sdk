@@ -179,7 +179,6 @@
 			isa = PBXGroup;
 			children = (
 				F19407C22CB907DA00E90475 /* Classes */,
-				C1C89C182C37D2350070C427 /* ios-swift-pjsua2-Bridging-Header.h */,
 				C11011232C3693A600560AB5 /* MiCallSDK.h */,
 			);
 			path = MiCallSDK;
@@ -284,6 +283,7 @@
 		F19407C22CB907DA00E90475 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C1C89C182C37D2350070C427 /* ios-swift-pjsua2-Bridging-Header.h */,
 				C11011382C36A44500560AB5 /* MiCallFactory.swift */,
 				C11011622C36A71B00560AB5 /* Utils */,
 				C11011532C36A5F600560AB5 /* PJSua2 */,
