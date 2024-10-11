@@ -52,6 +52,7 @@
 		C1C89C782C37DD630070C427 /* MiCallImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11011672C36A87E00560AB5 /* MiCallImp.swift */; };
 		C1C89C792C37DD630070C427 /* MiCallFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11011382C36A44500560AB5 /* MiCallFactory.swift */; };
 		F19407C02CB903E100E90475 /* MiCallSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C11011232C3693A600560AB5 /* MiCallSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F19407C12CB9071000E90475 /* ios-swift-pjsua2-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = C1C89C182C37D2350070C427 /* ios-swift-pjsua2-Bridging-Header.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -293,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F19407C02CB903E100E90475 /* MiCallSDK.h in Headers */,
+				F19407C12CB9071000E90475 /* ios-swift-pjsua2-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
