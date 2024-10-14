@@ -34,8 +34,6 @@
 		C1C89C3F2C37D8800070C427 /* libyuv-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9AFA2C37AD60004426FF /* libyuv-arm64-apple-darwin_ios.a */; };
 		C1C89C6D2C37DD630070C427 /* MiCallLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11011632C36A72C00560AB5 /* MiCallLog.swift */; };
 		C1C89C6E2C37DD630070C427 /* MiCallNormalize.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11011652C36A73D00560AB5 /* MiCallNormalize.swift */; };
-		C1C89C6F2C37DD630070C427 /* CustomPJSUA2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C11011542C36A61A00560AB5 /* CustomPJSUA2.cpp */; };
-		C1C89C702C37DD630070C427 /* wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = C11011582C36A66600560AB5 /* wrapper.mm */; };
 		C1C89C712C37DD630070C427 /* Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = C110114D2C36A54600560AB5 /* Call.swift */; };
 		C1C89C722C37DD630070C427 /* CallStateEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C110114F2C36A55500560AB5 /* CallStateEnum.swift */; };
 		C1C89C732C37DD630070C427 /* RegistrationStateEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11011512C36A56500560AB5 /* RegistrationStateEnum.swift */; };
@@ -71,20 +69,10 @@
 		C110114D2C36A54600560AB5 /* Call.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Call.swift; sourceTree = "<group>"; };
 		C110114F2C36A55500560AB5 /* CallStateEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallStateEnum.swift; sourceTree = "<group>"; };
 		C11011512C36A56500560AB5 /* RegistrationStateEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationStateEnum.swift; sourceTree = "<group>"; };
-		C11011542C36A61A00560AB5 /* CustomPJSUA2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CustomPJSUA2.cpp; sourceTree = "<group>"; };
-		C11011552C36A61A00560AB5 /* CustomPJSUA2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CustomPJSUA2.hpp; sourceTree = "<group>"; };
-		C11011582C36A66600560AB5 /* wrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = wrapper.mm; sourceTree = "<group>"; };
-		C110115A2C36A67C00560AB5 /* wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wrapper.h; sourceTree = "<group>"; };
 		C11011602C36A6FC00560AB5 /* MiCallAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiCallAccount.swift; sourceTree = "<group>"; };
 		C11011632C36A72C00560AB5 /* MiCallLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiCallLog.swift; sourceTree = "<group>"; };
 		C11011652C36A73D00560AB5 /* MiCallNormalize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiCallNormalize.swift; sourceTree = "<group>"; };
 		C11011672C36A87E00560AB5 /* MiCallImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiCallImp.swift; sourceTree = "<group>"; };
-		C11011692C36A92700560AB5 /* pjlib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pjlib; sourceTree = "<group>"; };
-		C110116A2C36A92700560AB5 /* pjnath */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pjnath; sourceTree = "<group>"; };
-		C110116B2C36A92700560AB5 /* pjlib-util */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "pjlib-util"; sourceTree = "<group>"; };
-		C110116C2C36A92700560AB5 /* pjmedia */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pjmedia; sourceTree = "<group>"; };
-		C110116D2C36A92700560AB5 /* pjsip */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pjsip; sourceTree = "<group>"; };
-		C110116E2C36A92700560AB5 /* third_party */ = {isa = PBXFileReference; lastKnownFileType = folder; path = third_party; sourceTree = "<group>"; };
 		C1BD9AAD2C378DC2004426FF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
 		C1BD9AAF2C378DC8004426FF /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/VideoToolbox.framework; sourceTree = DEVELOPER_DIR; };
 		C1BD9ABB2C378E51004426FF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
@@ -237,23 +225,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		C11011532C36A5F600560AB5 /* PJSua2 */ = {
-			isa = PBXGroup;
-			children = (
-				C11011692C36A92700560AB5 /* pjlib */,
-				C110116B2C36A92700560AB5 /* pjlib-util */,
-				C110116C2C36A92700560AB5 /* pjmedia */,
-				C110116A2C36A92700560AB5 /* pjnath */,
-				C110116D2C36A92700560AB5 /* pjsip */,
-				C110116E2C36A92700560AB5 /* third_party */,
-				C11011542C36A61A00560AB5 /* CustomPJSUA2.cpp */,
-				C11011552C36A61A00560AB5 /* CustomPJSUA2.hpp */,
-				C11011582C36A66600560AB5 /* wrapper.mm */,
-				C110115A2C36A67C00560AB5 /* wrapper.h */,
-			);
-			path = PJSua2;
-			sourceTree = "<group>";
-		};
 		C110115F2C36A6EF00560AB5 /* Account */ = {
 			isa = PBXGroup;
 			children = (
@@ -277,7 +248,6 @@
 				F19407C32CB909C700E90475 /* MiCallSDK.h */,
 				C11011382C36A44500560AB5 /* MiCallFactory.swift */,
 				C11011622C36A71B00560AB5 /* Utils */,
-				C11011532C36A5F600560AB5 /* PJSua2 */,
 				C110114C2C36A53300560AB5 /* Model */,
 				C110113C2C36A4A500560AB5 /* Listener */,
 				C11011372C36A32600560AB5 /* Core */,
@@ -368,8 +338,6 @@
 			files = (
 				C1C89C6D2C37DD630070C427 /* MiCallLog.swift in Sources */,
 				C1C89C6E2C37DD630070C427 /* MiCallNormalize.swift in Sources */,
-				C1C89C6F2C37DD630070C427 /* CustomPJSUA2.cpp in Sources */,
-				C1C89C702C37DD630070C427 /* wrapper.mm in Sources */,
 				C1C89C712C37DD630070C427 /* Call.swift in Sources */,
 				C1C89C722C37DD630070C427 /* CallStateEnum.swift in Sources */,
 				C1C89C732C37DD630070C427 /* RegistrationStateEnum.swift in Sources */,
