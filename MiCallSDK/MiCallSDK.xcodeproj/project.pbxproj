@@ -32,12 +32,6 @@
 		C1C89C3D2C37D8800070C427 /* libsrtp-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9B032C37AD60004426FF /* libsrtp-arm64-apple-darwin_ios.a */; };
 		C1C89C3E2C37D8800070C427 /* libwebrtc-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9B012C37AD60004426FF /* libwebrtc-arm64-apple-darwin_ios.a */; };
 		C1C89C3F2C37D8800070C427 /* libyuv-arm64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9AFA2C37AD60004426FF /* libyuv-arm64-apple-darwin_ios.a */; };
-		C1C89C662C37DB840070C427 /* pjlib in Resources */ = {isa = PBXBuildFile; fileRef = C11011692C36A92700560AB5 /* pjlib */; };
-		C1C89C672C37DB840070C427 /* pjlib-util in Resources */ = {isa = PBXBuildFile; fileRef = C110116B2C36A92700560AB5 /* pjlib-util */; };
-		C1C89C682C37DB840070C427 /* pjmedia in Resources */ = {isa = PBXBuildFile; fileRef = C110116C2C36A92700560AB5 /* pjmedia */; };
-		C1C89C692C37DB840070C427 /* pjnath in Resources */ = {isa = PBXBuildFile; fileRef = C110116A2C36A92700560AB5 /* pjnath */; };
-		C1C89C6A2C37DB840070C427 /* pjsip in Resources */ = {isa = PBXBuildFile; fileRef = C110116D2C36A92700560AB5 /* pjsip */; };
-		C1C89C6B2C37DB840070C427 /* third_party in Resources */ = {isa = PBXBuildFile; fileRef = C110116E2C36A92700560AB5 /* third_party */; };
 		C1C89C6D2C37DD630070C427 /* MiCallLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11011632C36A72C00560AB5 /* MiCallLog.swift */; };
 		C1C89C6E2C37DD630070C427 /* MiCallNormalize.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11011652C36A73D00560AB5 /* MiCallNormalize.swift */; };
 		C1C89C6F2C37DD630070C427 /* CustomPJSUA2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C11011542C36A61A00560AB5 /* CustomPJSUA2.cpp */; };
@@ -362,12 +356,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1C89C662C37DB840070C427 /* pjlib in Resources */,
-				C1C89C672C37DB840070C427 /* pjlib-util in Resources */,
-				C1C89C682C37DB840070C427 /* pjmedia in Resources */,
-				C1C89C692C37DB840070C427 /* pjnath in Resources */,
-				C1C89C6A2C37DB840070C427 /* pjsip in Resources */,
-				C1C89C6B2C37DB840070C427 /* third_party in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
