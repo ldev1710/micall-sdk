@@ -44,6 +44,10 @@
 		C1C89C782C37DD630070C427 /* MiCallImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11011672C36A87E00560AB5 /* MiCallImp.swift */; };
 		C1C89C792C37DD630070C427 /* MiCallFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11011382C36A44500560AB5 /* MiCallFactory.swift */; };
 		F19407C42CB909C700E90475 /* MiCallSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = F19407C32CB909C700E90475 /* MiCallSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F19C10882CBD050200E9D3FD /* CustomPJSUA2.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F19C10842CBD050200E9D3FD /* CustomPJSUA2.hpp */; };
+		F19C10892CBD050200E9D3FD /* wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = F19C10852CBD050200E9D3FD /* wrapper.mm */; };
+		F19C108A2CBD050200E9D3FD /* CustomPJSUA2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F19C10862CBD050200E9D3FD /* CustomPJSUA2.cpp */; };
+		F19C108B2CBD050200E9D3FD /* wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = F19C10872CBD050200E9D3FD /* wrapper.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -100,6 +104,10 @@
 		C1BD9B062C37AD60004426FF /* libpjnath-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjnath-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjnath/lib/libpjnath-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
 		C1BD9B072C37AD60004426FF /* libpjsip-ua-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsip-ua-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjsip/lib/libpjsip-ua-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
 		F19407C32CB909C700E90475 /* MiCallSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiCallSDK.h; sourceTree = "<group>"; };
+		F19C10842CBD050200E9D3FD /* CustomPJSUA2.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CustomPJSUA2.hpp; sourceTree = "<group>"; };
+		F19C10852CBD050200E9D3FD /* wrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = wrapper.mm; sourceTree = "<group>"; };
+		F19C10862CBD050200E9D3FD /* CustomPJSUA2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CustomPJSUA2.cpp; sourceTree = "<group>"; };
+		F19C10872CBD050200E9D3FD /* wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wrapper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +253,10 @@
 		F19407C22CB907DA00E90475 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F19C10862CBD050200E9D3FD /* CustomPJSUA2.cpp */,
+				F19C10842CBD050200E9D3FD /* CustomPJSUA2.hpp */,
+				F19C10872CBD050200E9D3FD /* wrapper.h */,
+				F19C10852CBD050200E9D3FD /* wrapper.mm */,
 				F19407C32CB909C700E90475 /* MiCallSDK.h */,
 				C11011382C36A44500560AB5 /* MiCallFactory.swift */,
 				C11011622C36A71B00560AB5 /* Utils */,
@@ -262,6 +274,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F19C10882CBD050200E9D3FD /* CustomPJSUA2.hpp in Headers */,
+				F19C108B2CBD050200E9D3FD /* wrapper.h in Headers */,
 				F19407C42CB909C700E90475 /* MiCallSDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,7 +353,9 @@
 				C1C89C6D2C37DD630070C427 /* MiCallLog.swift in Sources */,
 				C1C89C6E2C37DD630070C427 /* MiCallNormalize.swift in Sources */,
 				C1C89C712C37DD630070C427 /* Call.swift in Sources */,
+				F19C10892CBD050200E9D3FD /* wrapper.mm in Sources */,
 				C1C89C722C37DD630070C427 /* CallStateEnum.swift in Sources */,
+				F19C108A2CBD050200E9D3FD /* CustomPJSUA2.cpp in Sources */,
 				C1C89C732C37DD630070C427 /* RegistrationStateEnum.swift in Sources */,
 				C1C89C742C37DD630070C427 /* MiCallObserve.swift in Sources */,
 				C1C89C752C37DD630070C427 /* MiCallListener.swift in Sources */,
