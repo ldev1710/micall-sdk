@@ -14,9 +14,9 @@ Pod::Spec.new do |s|
 
 
   # Include static libraries (.a) and headers
-  s.vendored_libraries = 'MiCallSDK/ThirdParty/PJSUA2/*.a'
-  #s.public_header_files = 'MiCallSDK/ThirdParty/PJSUA2/Include/**/*.h'
-  s.preserve_paths = 'MiCallSDK/ThirdParty/PJSUA2/**/*'
+  s.vendored_libraries = 'MiCallSDK/ThirdParty/PJSua2/*.a'
+  #s.public_header_files = 'MiCallSDK/ThirdParty/PJSua2/Include/**/*.h'
+  s.preserve_paths = 'MiCallSDK/ThirdParty/PJSua2/**/*'
 
   # Frameworks and libraries required by PJSUA2
   s.frameworks = ['VideoToolbox', 'AudioToolbox', 'AVFoundation', 'CoreMedia','Foundation']
