@@ -1,0 +1,6 @@
+framework module MiCallSDK {
+  umbrella header "MiCallSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

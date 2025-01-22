@@ -1,0 +1,16 @@
+PODS:
+  - MiCallSDK (0.1.0)
+
+DEPENDENCIES:
+  - MiCallSDK (from `../`)
+
+EXTERNAL SOURCES:
+  MiCallSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MiCallSDK: d872d3e724b2f17a3ac02c8fbe5f3438079cf213
+
+PODFILE CHECKSUM: 4d646c3e805ff9481efc7fc1f1b20c2ea6694a79
+
+COCOAPODS: 1.15.2

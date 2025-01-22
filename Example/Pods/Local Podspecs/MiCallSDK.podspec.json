@@ -1,0 +1,22 @@
+{
+  "name": "MiCallSDK",
+  "version": "0.1.0",
+  "summary": "A short description of MiCallSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ldev/MiCallSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ldev": "luongdien1211@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ldev/MiCallSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MiCallSDK/Classes/**/*"
+}
