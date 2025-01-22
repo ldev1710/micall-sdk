@@ -11,6 +11,8 @@ Pod::Spec.new do |s|
   s.swift_version    = '5.0'
   s.source_files     = 'MiCallSDK/Classes/**/*'
   
+
+
   # Include static libraries (.a) and headers
   s.vendored_libraries = 'MiCallSDK/ThirdParty/PJSUA2/*.a'
   #s.public_header_files = 'MiCallSDK/ThirdParty/PJSUA2/Include/**/*.h'
