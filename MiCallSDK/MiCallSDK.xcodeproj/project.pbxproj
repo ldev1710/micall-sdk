@@ -157,9 +157,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E84A50E2D40933C0093C7A4 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				C1C89C182C37D2350070C427 /* ios-swift-pjsua2-Bridging-Header.h */,
+				C11011232C3693A600560AB5 /* MiCallSDK.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
 		C107D3972C3557D8004A36F4 = {
 			isa = PBXGroup;
 			children = (
+				7E84A50E2D40933C0093C7A4 /* Headers */,
 				C107D3A32C3557D8004A36F4 /* MiCallSDK */,
 				C107D3A22C3557D8004A36F4 /* Products */,
 				C107D3AB2C35590E004A36F4 /* Frameworks */,
@@ -177,13 +187,11 @@
 		C107D3A32C3557D8004A36F4 /* MiCallSDK */ = {
 			isa = PBXGroup;
 			children = (
-				C1C89C182C37D2350070C427 /* ios-swift-pjsua2-Bridging-Header.h */,
 				C11011622C36A71B00560AB5 /* Utils */,
 				C11011532C36A5F600560AB5 /* PJSua2 */,
 				C110114C2C36A53300560AB5 /* Model */,
 				C110113C2C36A4A500560AB5 /* Listener */,
 				C11011372C36A32600560AB5 /* Core */,
-				C11011232C3693A600560AB5 /* MiCallSDK.h */,
 				C11011382C36A44500560AB5 /* MiCallFactory.swift */,
 			);
 			path = MiCallSDK;
