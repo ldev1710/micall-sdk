@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E84A5122D40947F0093C7A4 /* MiCallSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E84A5102D40947F0093C7A4 /* MiCallSDK.h */; };
-		7E84A5132D40947F0093C7A4 /* ios-swift-pjsua2-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E84A50F2D40947F0093C7A4 /* ios-swift-pjsua2-Bridging-Header.h */; };
+		7E84A5142D4095130093C7A4 /* ios-swift-pjsua2-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E84A50F2D40947F0093C7A4 /* ios-swift-pjsua2-Bridging-Header.h */; };
+		7E84A5152D4095130093C7A4 /* MiCallSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E84A5102D40947F0093C7A4 /* MiCallSDK.h */; };
+		7E84A5182D4095900093C7A4 /* wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E84A5162D4095900093C7A4 /* wrapper.h */; };
+		7E84A5192D4095900093C7A4 /* CustomPJSUA2.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 7E84A5172D4095900093C7A4 /* CustomPJSUA2.hpp */; };
 		C1C89C262C37D84A0070C427 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9AAD2C378DC2004426FF /* AudioToolbox.framework */; };
 		C1C89C272C37D8500070C427 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9ABD2C378E58004426FF /* AVFoundation.framework */; };
 		C1C89C282C37D8560070C427 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9AAF2C378DC8004426FF /* VideoToolbox.framework */; };
@@ -72,6 +74,8 @@
 /* Begin PBXFileReference section */
 		7E84A50F2D40947F0093C7A4 /* ios-swift-pjsua2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-swift-pjsua2-Bridging-Header.h"; sourceTree = "<group>"; };
 		7E84A5102D40947F0093C7A4 /* MiCallSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiCallSDK.h; sourceTree = "<group>"; };
+		7E84A5162D4095900093C7A4 /* wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = wrapper.h; path = ../Headers/wrapper.h; sourceTree = "<group>"; };
+		7E84A5172D4095900093C7A4 /* CustomPJSUA2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = CustomPJSUA2.hpp; path = ../Headers/CustomPJSUA2.hpp; sourceTree = "<group>"; };
 		C107D3A12C3557D8004A36F4 /* MiCallSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MiCallSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C11011382C36A44500560AB5 /* MiCallFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiCallFactory.swift; sourceTree = "<group>"; };
 		C110113A2C36A46300560AB5 /* MiCallCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiCallCore.swift; sourceTree = "<group>"; };
@@ -163,6 +167,8 @@
 			children = (
 				7E84A50F2D40947F0093C7A4 /* ios-swift-pjsua2-Bridging-Header.h */,
 				7E84A5102D40947F0093C7A4 /* MiCallSDK.h */,
+				C110115A2C36A67C00560AB5 /* wrapper.h */,
+				C11011552C36A61A00560AB5 /* CustomPJSUA2.hpp */,
 			);
 			name = Headers;
 			path = ../Headers;
@@ -171,6 +177,8 @@
 		C107D3972C3557D8004A36F4 = {
 			isa = PBXGroup;
 			children = (
+				7E84A5172D4095900093C7A4 /* CustomPJSUA2.hpp */,
+				7E84A5162D4095900093C7A4 /* wrapper.h */,
 				7E84A5112D40947F0093C7A4 /* Headers */,
 				C107D3A32C3557D8004A36F4 /* MiCallSDK */,
 				C107D3A22C3557D8004A36F4 /* Products */,
@@ -271,9 +279,7 @@
 				C110116D2C36A92700560AB5 /* pjsip */,
 				C110116E2C36A92700560AB5 /* third_party */,
 				C11011542C36A61A00560AB5 /* CustomPJSUA2.cpp */,
-				C11011552C36A61A00560AB5 /* CustomPJSUA2.hpp */,
 				C11011582C36A66600560AB5 /* wrapper.mm */,
-				C110115A2C36A67C00560AB5 /* wrapper.h */,
 			);
 			path = PJSua2;
 			sourceTree = "<group>";
@@ -302,8 +308,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E84A5122D40947F0093C7A4 /* MiCallSDK.h in Headers */,
-				7E84A5132D40947F0093C7A4 /* ios-swift-pjsua2-Bridging-Header.h in Headers */,
+				7E84A5182D4095900093C7A4 /* wrapper.h in Headers */,
+				7E84A5192D4095900093C7A4 /* CustomPJSUA2.hpp in Headers */,
+				7E84A5142D4095130093C7A4 /* ios-swift-pjsua2-Bridging-Header.h in Headers */,
+				7E84A5152D4095130093C7A4 /* MiCallSDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
