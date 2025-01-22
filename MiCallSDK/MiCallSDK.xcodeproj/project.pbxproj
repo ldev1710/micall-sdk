@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E84A5122D40947F0093C7A4 /* MiCallSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E84A5102D40947F0093C7A4 /* MiCallSDK.h */; };
+		7E84A5132D40947F0093C7A4 /* ios-swift-pjsua2-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E84A50F2D40947F0093C7A4 /* ios-swift-pjsua2-Bridging-Header.h */; };
 		C1C89C262C37D84A0070C427 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9AAD2C378DC2004426FF /* AudioToolbox.framework */; };
 		C1C89C272C37D8500070C427 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9ABD2C378E58004426FF /* AVFoundation.framework */; };
 		C1C89C282C37D8560070C427 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BD9AAF2C378DC8004426FF /* VideoToolbox.framework */; };
@@ -51,7 +53,6 @@
 		C1C89C772C37DD630070C427 /* MiCallCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C110113A2C36A46300560AB5 /* MiCallCore.swift */; };
 		C1C89C782C37DD630070C427 /* MiCallImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11011672C36A87E00560AB5 /* MiCallImp.swift */; };
 		C1C89C792C37DD630070C427 /* MiCallFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11011382C36A44500560AB5 /* MiCallFactory.swift */; };
-		F19407C02CB903E100E90475 /* MiCallSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C11011232C3693A600560AB5 /* MiCallSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -69,8 +70,9 @@
 /* End PBXBuildRule section */
 
 /* Begin PBXFileReference section */
+		7E84A50F2D40947F0093C7A4 /* ios-swift-pjsua2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-swift-pjsua2-Bridging-Header.h"; sourceTree = "<group>"; };
+		7E84A5102D40947F0093C7A4 /* MiCallSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiCallSDK.h; sourceTree = "<group>"; };
 		C107D3A12C3557D8004A36F4 /* MiCallSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MiCallSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C11011232C3693A600560AB5 /* MiCallSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiCallSDK.h; sourceTree = "<group>"; };
 		C11011382C36A44500560AB5 /* MiCallFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiCallFactory.swift; sourceTree = "<group>"; };
 		C110113A2C36A46300560AB5 /* MiCallCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiCallCore.swift; sourceTree = "<group>"; };
 		C11011482C36A51E00560AB5 /* MiCallObserve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiCallObserve.swift; sourceTree = "<group>"; };
@@ -118,7 +120,6 @@
 		C1BD9B052C37AD60004426FF /* libpjmedia-codec-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjmedia-codec-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjmedia/lib/libpjmedia-codec-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
 		C1BD9B062C37AD60004426FF /* libpjnath-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjnath-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjnath/lib/libpjnath-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
 		C1BD9B072C37AD60004426FF /* libpjsip-ua-arm64-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsip-ua-arm64-apple-darwin_ios.a"; path = "../../../../FlutterProject/pjproject-2.14.1/pjsip/lib/libpjsip-ua-arm64-apple-darwin_ios.a"; sourceTree = "<group>"; };
-		C1C89C182C37D2350070C427 /* ios-swift-pjsua2-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ios-swift-pjsua2-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,19 +158,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7E84A50E2D40933C0093C7A4 /* Headers */ = {
+		7E84A5112D40947F0093C7A4 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				C1C89C182C37D2350070C427 /* ios-swift-pjsua2-Bridging-Header.h */,
-				C11011232C3693A600560AB5 /* MiCallSDK.h */,
+				7E84A50F2D40947F0093C7A4 /* ios-swift-pjsua2-Bridging-Header.h */,
+				7E84A5102D40947F0093C7A4 /* MiCallSDK.h */,
 			);
-			path = Headers;
-			sourceTree = "<group>";
+			name = Headers;
+			path = ../Headers;
+			sourceTree = SOURCE_ROOT;
 		};
 		C107D3972C3557D8004A36F4 = {
 			isa = PBXGroup;
 			children = (
-				7E84A50E2D40933C0093C7A4 /* Headers */,
+				7E84A5112D40947F0093C7A4 /* Headers */,
 				C107D3A32C3557D8004A36F4 /* MiCallSDK */,
 				C107D3A22C3557D8004A36F4 /* Products */,
 				C107D3AB2C35590E004A36F4 /* Frameworks */,
@@ -300,7 +302,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F19407C02CB903E100E90475 /* MiCallSDK.h in Headers */,
+				7E84A5122D40947F0093C7A4 /* MiCallSDK.h in Headers */,
+				7E84A5132D40947F0093C7A4 /* ios-swift-pjsua2-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
