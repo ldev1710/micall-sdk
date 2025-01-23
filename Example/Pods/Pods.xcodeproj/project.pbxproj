@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E0F24A9B11879C843C7C5EA38B4785 /* Pods-MiCallSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 673223DC7626D1189DF2A429C29FC8FE /* Pods-MiCallSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2048890E08F3262BE6D24CE3B094B907 /* MiCallSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FA01F4FDE521A4045E2DE3AF246B8C /* MiCallSDK-dummy.m */; };
+		361945F78A2C38A1CBD49C9BD5191E0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		36CA53A1C0819E868B264A90BB07DDA0 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F516F88A64620CC195D83A4E47B35A /* ReplaceMe.swift */; };
+		3BEB3ADFF817EE764A84DA3F122D8E10 /* MiCallSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD13D0D32DEAAE97289D5E2D6737BE80 /* MiCallSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C6E924CE10820B43CAEBCA1782E051 /* Pods-MiCallSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FFF443BC66D964C9AE4A9576DF4CEE3 /* Pods-MiCallSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EA94B481BD215DE3CD840C0094FB451 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A56242983026179B7E13E05E2A8A6FB5 /* Pods-MiCallSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D07645AE23ABCC324A43E66D13D34E3D /* Pods-MiCallSDK_Example-dummy.m */; };
+		E290696582D5A6EDA914222AB173698D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F6AD67201BC3C85922A5091DF133715A /* Pods-MiCallSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9346F22948469BDB6BD874331AD36B /* Pods-MiCallSDK_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		563B1914F063BF2C3873BA1BDA45AE6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6034217E828DDE4B611A67ED3E051CD3;
+			remoteInfo = "Pods-MiCallSDK_Example";
+		};
+		A3AC0DA3D2BBE4426C0F3BD5D8BEE6BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A93AB4DA1CE8788E0CEF2A1B41628776;
+			remoteInfo = MiCallSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0057BD5628AA0BE472C27E7EE7FE6EFB /* Pods-MiCallSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MiCallSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		1CE9064B800D35E844CBE32532ECEA6F /* Pods-MiCallSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MiCallSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		20BE4095A48D25D1D23C46C366B13D8D /* MiCallSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MiCallSDK.release.xcconfig; sourceTree = "<group>"; };
+		24C51B18A891D1F62D970659449B4BAE /* Pods-MiCallSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MiCallSDK_Example"; path = Pods_MiCallSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2635F58996366B31AF62A7642ADC1B88 /* Pods-MiCallSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MiCallSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		36B5A92A670D9A22ECE3E9BB6EC93C33 /* Pods-MiCallSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MiCallSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4ABD3F7E5A367F5E5E3D307A5D304D24 /* MiCallSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MiCallSDK-prefix.pch"; sourceTree = "<group>"; };
+		4BFC08B986E65DCBBF80FF060DC2B5FA /* Pods-MiCallSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MiCallSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4FFF443BC66D964C9AE4A9576DF4CEE3 /* Pods-MiCallSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MiCallSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		529BCD50794FB8D6EFCEABB17E02DF19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		537748639D4376A50A42E25F4EDA3334 /* Pods-MiCallSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MiCallSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		615758BB2D974FF267BA49201F1A647A /* Pods-MiCallSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MiCallSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		61E6B48A9ACE17E2FA760E5218FEA2E8 /* Pods-MiCallSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MiCallSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		673223DC7626D1189DF2A429C29FC8FE /* Pods-MiCallSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MiCallSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		71C25537E7EE35AB0ECB25757DCE5968 /* MiCallSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MiCallSDK.modulemap; sourceTree = "<group>"; };
+		72F047DB2FE8D998EEAC405C309AFDC7 /* Pods-MiCallSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MiCallSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73F516F88A64620CC195D83A4E47B35A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MiCallSDK/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		7E0AA97A5F5F69B6B7D3B772EBBBB5AD /* MiCallSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MiCallSDK; path = MiCallSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88895CF30830A16F92A95AFF48970A3E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		94A664353659E00D2A549225A5BB0FCE /* Pods-MiCallSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MiCallSDK_Tests"; path = Pods_MiCallSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		956D70812EB403D6DC3C8F3462C4C8FA /* Pods-MiCallSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MiCallSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A9346F22948469BDB6BD874331AD36B /* Pods-MiCallSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MiCallSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B08EBFDA14B9ECEA85DFD2206D4A132E /* MiCallSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MiCallSDK.debug.xcconfig; sourceTree = "<group>"; };
+		C0FA01F4FDE521A4045E2DE3AF246B8C /* MiCallSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MiCallSDK-dummy.m"; sourceTree = "<group>"; };
+		C2F752D5ABF6B90FD9EC82149EAD664D /* Pods-MiCallSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MiCallSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C68D1108BAA4E57B124866B0CF0CA163 /* MiCallSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MiCallSDK-Info.plist"; sourceTree = "<group>"; };
+		D07645AE23ABCC324A43E66D13D34E3D /* Pods-MiCallSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MiCallSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		DBCC4401AD8E8DD28FDEA98EEEA8255A /* Pods-MiCallSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MiCallSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EDD35496360735673D97B2C9DBCE5ABE /* Pods-MiCallSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MiCallSDK_Example.modulemap"; sourceTree = "<group>"; };
+		FC4F1C0DF3791E5B50CDC8723B1DA119 /* MiCallSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MiCallSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FD13D0D32DEAAE97289D5E2D6737BE80 /* MiCallSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MiCallSDK-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DB1468612D9F6C68647BE8569DB3E36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E290696582D5A6EDA914222AB173698D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5159023FCD4945DFA06E267D8B935E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA94B481BD215DE3CD840C0094FB451 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFB31414065B0260A5DDF3CFC0637E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361945F78A2C38A1CBD49C9BD5191E0D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26F1D0259A95DCD6C6D4211B6A85CCAE /* MiCallSDK */ = {
+			isa = PBXGroup;
+			children = (
+				73F516F88A64620CC195D83A4E47B35A /* ReplaceMe.swift */,
+				D7930C4995088FF0BB27ED023C0FC756 /* Pod */,
+				7B46522238DEC42C950E89E94341090F /* Support Files */,
+			);
+			name = MiCallSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2CF3F2A14B5B7FFB8559BFFD9B65539A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E0AA97A5F5F69B6B7D3B772EBBBB5AD /* MiCallSDK */,
+				24C51B18A891D1F62D970659449B4BAE /* Pods-MiCallSDK_Example */,
+				94A664353659E00D2A549225A5BB0FCE /* Pods-MiCallSDK_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7B46522238DEC42C950E89E94341090F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				71C25537E7EE35AB0ECB25757DCE5968 /* MiCallSDK.modulemap */,
+				C0FA01F4FDE521A4045E2DE3AF246B8C /* MiCallSDK-dummy.m */,
+				C68D1108BAA4E57B124866B0CF0CA163 /* MiCallSDK-Info.plist */,
+				4ABD3F7E5A367F5E5E3D307A5D304D24 /* MiCallSDK-prefix.pch */,
+				FD13D0D32DEAAE97289D5E2D6737BE80 /* MiCallSDK-umbrella.h */,
+				B08EBFDA14B9ECEA85DFD2206D4A132E /* MiCallSDK.debug.xcconfig */,
+				20BE4095A48D25D1D23C46C366B13D8D /* MiCallSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MiCallSDK";
+			sourceTree = "<group>";
+		};
+		82A88B54303E3E00D2BFCF1D98EDCC15 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26F1D0259A95DCD6C6D4211B6A85CCAE /* MiCallSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				82A88B54303E3E00D2BFCF1D98EDCC15 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2CF3F2A14B5B7FFB8559BFFD9B65539A /* Products */,
+				FAB0968990B47D7C8342A7BBD396FFF6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7930C4995088FF0BB27ED023C0FC756 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				529BCD50794FB8D6EFCEABB17E02DF19 /* LICENSE */,
+				FC4F1C0DF3791E5B50CDC8723B1DA119 /* MiCallSDK.podspec */,
+				88895CF30830A16F92A95AFF48970A3E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E80B4DA22CFECB193D69B9C18A15864F /* Pods-MiCallSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0057BD5628AA0BE472C27E7EE7FE6EFB /* Pods-MiCallSDK_Tests.modulemap */,
+				4BFC08B986E65DCBBF80FF060DC2B5FA /* Pods-MiCallSDK_Tests-acknowledgements.markdown */,
+				C2F752D5ABF6B90FD9EC82149EAD664D /* Pods-MiCallSDK_Tests-acknowledgements.plist */,
+				9A9346F22948469BDB6BD874331AD36B /* Pods-MiCallSDK_Tests-dummy.m */,
+				615758BB2D974FF267BA49201F1A647A /* Pods-MiCallSDK_Tests-Info.plist */,
+				4FFF443BC66D964C9AE4A9576DF4CEE3 /* Pods-MiCallSDK_Tests-umbrella.h */,
+				956D70812EB403D6DC3C8F3462C4C8FA /* Pods-MiCallSDK_Tests.debug.xcconfig */,
+				2635F58996366B31AF62A7642ADC1B88 /* Pods-MiCallSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-MiCallSDK_Tests";
+			path = "Target Support Files/Pods-MiCallSDK_Tests";
+			sourceTree = "<group>";
+		};
+		EBA7A339657E78247C387ADBFB7F34CB /* Pods-MiCallSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EDD35496360735673D97B2C9DBCE5ABE /* Pods-MiCallSDK_Example.modulemap */,
+				DBCC4401AD8E8DD28FDEA98EEEA8255A /* Pods-MiCallSDK_Example-acknowledgements.markdown */,
+				36B5A92A670D9A22ECE3E9BB6EC93C33 /* Pods-MiCallSDK_Example-acknowledgements.plist */,
+				D07645AE23ABCC324A43E66D13D34E3D /* Pods-MiCallSDK_Example-dummy.m */,
+				537748639D4376A50A42E25F4EDA3334 /* Pods-MiCallSDK_Example-frameworks.sh */,
+				61E6B48A9ACE17E2FA760E5218FEA2E8 /* Pods-MiCallSDK_Example-Info.plist */,
+				673223DC7626D1189DF2A429C29FC8FE /* Pods-MiCallSDK_Example-umbrella.h */,
+				72F047DB2FE8D998EEAC405C309AFDC7 /* Pods-MiCallSDK_Example.debug.xcconfig */,
+				1CE9064B800D35E844CBE32532ECEA6F /* Pods-MiCallSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-MiCallSDK_Example";
+			path = "Target Support Files/Pods-MiCallSDK_Example";
+			sourceTree = "<group>";
+		};
+		FAB0968990B47D7C8342A7BBD396FFF6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBA7A339657E78247C387ADBFB7F34CB /* Pods-MiCallSDK_Example */,
+				E80B4DA22CFECB193D69B9C18A15864F /* Pods-MiCallSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2423C631DF9187D30A41FA187FF8C444 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E0F24A9B11879C843C7C5EA38B4785 /* Pods-MiCallSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7565195D82FD6B2D272493BEDB71E8F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C6E924CE10820B43CAEBCA1782E051 /* Pods-MiCallSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7594B60F10918A96203AD0F7093976F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEB3ADFF817EE764A84DA3F122D8E10 /* MiCallSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6034217E828DDE4B611A67ED3E051CD3 /* Pods-MiCallSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D22309A557B3DD6FDA68F20491412D3 /* Build configuration list for PBXNativeTarget "Pods-MiCallSDK_Example" */;
+			buildPhases = (
+				2423C631DF9187D30A41FA187FF8C444 /* Headers */,
+				139B44ADA089B906BDC41176A1783672 /* Sources */,
+				7F5159023FCD4945DFA06E267D8B935E /* Frameworks */,
+				5A4DEC206ADF3D91283188334ADD4DA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6FFC6682E1BC888F15A2DEBDDBB7726 /* PBXTargetDependency */,
+			);
+			name = "Pods-MiCallSDK_Example";
+			productName = Pods_MiCallSDK_Example;
+			productReference = 24C51B18A891D1F62D970659449B4BAE /* Pods-MiCallSDK_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E38451EDFD652E4AF155936063EE4F2 /* Pods-MiCallSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 642B813A6530903EAA1AF0787413EEFE /* Build configuration list for PBXNativeTarget "Pods-MiCallSDK_Tests" */;
+			buildPhases = (
+				7565195D82FD6B2D272493BEDB71E8F4 /* Headers */,
+				3B59D3197492EE2D1D16F4182E1E0537 /* Sources */,
+				7DB1468612D9F6C68647BE8569DB3E36 /* Frameworks */,
+				95844D36976886850D8FB44A3DBBAF4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD8960E99CCDAD766957BA33C2AA033D /* PBXTargetDependency */,
+			);
+			name = "Pods-MiCallSDK_Tests";
+			productName = Pods_MiCallSDK_Tests;
+			productReference = 94A664353659E00D2A549225A5BB0FCE /* Pods-MiCallSDK_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		A93AB4DA1CE8788E0CEF2A1B41628776 /* MiCallSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AC59A05905E2627A363B1A2D32F92DA /* Build configuration list for PBXNativeTarget "MiCallSDK" */;
+			buildPhases = (
+				D7594B60F10918A96203AD0F7093976F /* Headers */,
+				C3011AE0766FBF77C534DABD71FFE45B /* Sources */,
+				FBFB31414065B0260A5DDF3CFC0637E4 /* Frameworks */,
+				A98322FAC558F3080F3BA978A81416FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiCallSDK;
+			productName = MiCallSDK;
+			productReference = 7E0AA97A5F5F69B6B7D3B772EBBBB5AD /* MiCallSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			productRefGroup = 2CF3F2A14B5B7FFB8559BFFD9B65539A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A93AB4DA1CE8788E0CEF2A1B41628776 /* MiCallSDK */,
+				6034217E828DDE4B611A67ED3E051CD3 /* Pods-MiCallSDK_Example */,
+				8E38451EDFD652E4AF155936063EE4F2 /* Pods-MiCallSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A4DEC206ADF3D91283188334ADD4DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95844D36976886850D8FB44A3DBBAF4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98322FAC558F3080F3BA978A81416FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		139B44ADA089B906BDC41176A1783672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56242983026179B7E13E05E2A8A6FB5 /* Pods-MiCallSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B59D3197492EE2D1D16F4182E1E0537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6AD67201BC3C85922A5091DF133715A /* Pods-MiCallSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3011AE0766FBF77C534DABD71FFE45B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2048890E08F3262BE6D24CE3B094B907 /* MiCallSDK-dummy.m in Sources */,
+				36CA53A1C0819E868B264A90BB07DDA0 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6FFC6682E1BC888F15A2DEBDDBB7726 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MiCallSDK;
+			target = A93AB4DA1CE8788E0CEF2A1B41628776 /* MiCallSDK */;
+			targetProxy = A3AC0DA3D2BBE4426C0F3BD5D8BEE6BE /* PBXContainerItemProxy */;
+		};
+		CD8960E99CCDAD766957BA33C2AA033D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MiCallSDK_Example";
+			target = 6034217E828DDE4B611A67ED3E051CD3 /* Pods-MiCallSDK_Example */;
+			targetProxy = 563B1914F063BF2C3873BA1BDA45AE6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		52AE9A72BFDC0315858673A408F9EF30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72F047DB2FE8D998EEAC405C309AFDC7 /* Pods-MiCallSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MiCallSDK_Example/Pods-MiCallSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MiCallSDK_Example/Pods-MiCallSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		54B98195F96096CED37C97A93621429C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20BE4095A48D25D1D23C46C366B13D8D /* MiCallSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MiCallSDK/MiCallSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MiCallSDK/MiCallSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MiCallSDK/MiCallSDK.modulemap";
+				PRODUCT_MODULE_NAME = MiCallSDK;
+				PRODUCT_NAME = MiCallSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		690285CDEDA33271B421B591EAEA933F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2635F58996366B31AF62A7642ADC1B88 /* Pods-MiCallSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MiCallSDK_Tests/Pods-MiCallSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MiCallSDK_Tests/Pods-MiCallSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AF25C402F0B3DDEE1D1747B332FAE073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B08EBFDA14B9ECEA85DFD2206D4A132E /* MiCallSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MiCallSDK/MiCallSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MiCallSDK/MiCallSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MiCallSDK/MiCallSDK.modulemap";
+				PRODUCT_MODULE_NAME = MiCallSDK;
+				PRODUCT_NAME = MiCallSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C2BBFEC3E86F11296F9BA01BA05933A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CE9064B800D35E844CBE32532ECEA6F /* Pods-MiCallSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MiCallSDK_Example/Pods-MiCallSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MiCallSDK_Example/Pods-MiCallSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E7ED749F80D498F6ABFCC77CF3A77564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 956D70812EB403D6DC3C8F3462C4C8FA /* Pods-MiCallSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MiCallSDK_Tests/Pods-MiCallSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MiCallSDK_Tests/Pods-MiCallSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		642B813A6530903EAA1AF0787413EEFE /* Build configuration list for PBXNativeTarget "Pods-MiCallSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7ED749F80D498F6ABFCC77CF3A77564 /* Debug */,
+				690285CDEDA33271B421B591EAEA933F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AC59A05905E2627A363B1A2D32F92DA /* Build configuration list for PBXNativeTarget "MiCallSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF25C402F0B3DDEE1D1747B332FAE073 /* Debug */,
+				54B98195F96096CED37C97A93621429C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D22309A557B3DD6FDA68F20491412D3 /* Build configuration list for PBXNativeTarget "Pods-MiCallSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52AE9A72BFDC0315858673A408F9EF30 /* Debug */,
+				C2BBFEC3E86F11296F9BA01BA05933A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
