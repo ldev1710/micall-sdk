@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   # Include static libraries (.a) and headers
   #s.ios.vendored_libraries = 'MiCallSDK/ThirdParty/PJSUA2/*.a'
-  s.public_header_files = 'MiCallSDK/ThirdParty/PJSUA2/**/*.h'
+  s.private_header_files = 'MiCallSDK/ThirdParty/PJSUA2/**/*.h'
   s.preserve_paths = 'MiCallSDK/ThirdParty/PJSUA2/**/*'
 
   # Frameworks and libraries required by PJSUA2
